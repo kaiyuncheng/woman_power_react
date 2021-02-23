@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+
+body{
+  font-family: 'Noto Sans TC', sans-serif;
+  background-size: 40px 40px;
+  background-image: 
+  linear-gradient(to right,#25526e1a 1px,transparent 1px),
+  linear-gradient(to bottom,#25526e1a 1px,transparent 1px),
+  linear-gradient(to bottom,#FBF8F8 ,#FBF8F8);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.hero{
+  height:100vh;
+  max-height: 1080px;
+  min-height: 680px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.video_image{
+  height: 250px;
+}
+
+@media (min-width: 568px){
+  .hero {
+    min-height: 800px;
+    max-height: 850px;
+  }
+
+  .video_image{
+    height: 300px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (min-width: 768px) {
+  .hero {
+    min-height: 950px;
+    max-height: 1080px;
   }
-  to {
-    transform: rotate(360deg);
+  .video_image{
+    height: 400px;
   }
 }
+
+@media (min-width: 992px){
+  .hero{
+    min-height: 700px;
+    max-height: 800px;
+    
+  }
+
+  .video_image{
+    height: 600px;
+  }
+}
+
