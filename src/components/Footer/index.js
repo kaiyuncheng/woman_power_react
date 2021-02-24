@@ -1,10 +1,11 @@
 import bgFooter from '../../images/bg_orange_04.png'
 
+
 const Footer = () => {
   return (
     <>
       <footer
-        class="text-center text-sm text-brown-dark leading-relaxed bg-cover bg-top-center bg-no-repeat pt-20 pb-16 md:pt-28 md:pb-20 px-10"
+        className="text-center text-sm text-brown-dark leading-relaxed bg-cover bg-top-center bg-no-repeat pt-20 pb-16 md:pt-28 md:pb-20 px-10"
         style={{ backgroundImage: `url(${bgFooter})` }}
       >
         <p>

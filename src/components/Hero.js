@@ -14,13 +14,13 @@ const Hero = () => (
         <div className="btn mb-14">
           <button
             type="button"
-            class="animate-bounce scroll_btn relative group text-brown-dark inline-flex items-center hover:text-primary-dark focus:outline-none"
+            className="animate-bounce scroll_btn relative group text-brown-dark inline-flex items-center hover:text-primary-dark focus:outline-none"
           >
-            <span class="font-semibold italic mr-4 transform translate-y-0 transition-all duration-500 group-hover:translate-y-2">
+            <span className="font-semibold italic mr-4 transform translate-y-0 transition-all duration-500 group-hover:translate-y-2">
               SCROLL DOWN
             </span>
             <svg
-              class="fill-current text-transparent stroke-1 transform transition-all duration-500 translate-y-0 group-hover:translate-y-4 group-hover:stroke-0 group-hover:text-primary-dark"
+              className="fill-current text-transparent stroke-1 transform transition-all duration-500 translate-y-0 group-hover:translate-y-4 group-hover:stroke-0 group-hover:text-primary-dark"
               xmlns="http://www.w3.org/2000/svg"
               width="23.493"
               height="15.527"

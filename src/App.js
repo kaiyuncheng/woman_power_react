@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -8,7 +8,7 @@ import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 
 import Header from './components/Header';
 import Hero from './components/Hero';
-import Sliders from './components/Sliders';
+import SlidersSection from './components/SlidersSection';
 import VideoSection from './components/VideoSection';
 import Banner from './components/Banner';
 import Corporation from './components/Corporation';
@@ -27,7 +27,7 @@ function App() {
 
       <Header />
       <Hero />
-      <Sliders />
+      <SlidersSection />
       <VideoSection />
       <Banner />
       <Corporation />
