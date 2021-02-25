@@ -63,3 +63,23 @@ body{
   }
 }
 
+
+#leaves_right{
+  fill-opacity:0;
+  stroke: #D5C5BD;
+  stroke-width: 2;
+  stroke-dasharray: 1000;
+  stroke-dashoffset: -1000;
+  animation: dash 3s linear both;
+  animation-iteration-count: 1;
+}
+
+@keyframes dash {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    stroke-dashoffset: 0;
+    opacity: 1;
+  } 
+}

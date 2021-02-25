@@ -22,7 +22,7 @@ const GoTop = () => {
       type="button"
       className={`${
         top && 'hidden opacity-0'
-      } fixed animate-bounce z-50 right-3 bottom-3 group bg-opacity-60 hover:opacity-100 py-5 px-3 rounded-full outline-none border border-primary-dark bg-secondary-bg hover:bg-primary-dark focus:outline-none duration-500`}
+      } fixed animate-bounce z-50 right-3 bottom-0 group bg-opacity-60 hover:opacity-100 py-5 px-3 rounded-full outline-none border border-primary-dark bg-secondary-bg hover:bg-primary-dark focus:outline-none duration-500`}
     >
       <svg
         className="stroke-current text-primary-dark group-hover:text-white transform rotate-90 transition-translate duration-500 translate-y-0 group-hover:-translate-y-2 w-5 h-5"
