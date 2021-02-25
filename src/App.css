@@ -56,3 +56,10 @@ body{
   }
 }
 
+@media (min-width: 1280px){
+  
+  .video_image{
+    height: 600px;
+  }
+}
+

@@ -6,7 +6,7 @@ function SamplePrevArrow({ onClick }) {
     <button
       type="button"
       onClick={onClick}
-      className="prev hidden sm:block absolute -left-16 top-1/2 transform -translate-y-1/2 group lg:p-4 p-3 rounded-full bg-secondary-bg hover:bg-secondary-dark focus:outline-none transition-colors duration-500"
+      className="prev block absolute left-0 top-28 z-40 sm:-left-16 sm:top-1/2 transform sm:-translate-y-1/2 group lg:p-4 p-3 rounded-full bg-secondary-bg hover:bg-secondary-dark focus:outline-none transition-colors duration-500"
     >
       <span className="animate-ping absolute left-0 top-0 inline-flex h-full w-full rounded-full border border-secondary-dark opacity-100"></span>
       <svg
@@ -47,7 +47,7 @@ function SampleNextArrow({ onClick }) {
     <button
       type="button"
       onClick={onClick}
-      className="next hidden sm:block absolute -right-16 top-1/2 transform -translate-y-1/2 group lg:p-4 p-3 rounded-full bg-secondary-bg hover:bg-secondary-dark focus:outline-none transition-colors duration-500"
+      className="next block absolute right-0 top-28 z-40 sm:-right-16 sm:top-1/2 transform sm:-translate-y-1/2 group lg:p-4 p-3 rounded-full bg-secondary-bg hover:bg-secondary-dark focus:outline-none transition-colors duration-500"
     >
       <span className="animate-ping absolute left-0 top-0 inline-flex h-full w-full rounded-full border border-secondary-dark opacity-100"></span>
       <svg

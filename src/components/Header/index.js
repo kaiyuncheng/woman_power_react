@@ -3,7 +3,6 @@ const Header= () => {
   const [menuState, setMenuState] = useState('scale-0');
   const [top, setTop] = useState(true);
 
-  // detect whether user has scrolled the page down by 10px
   useEffect(() => {
     const scrollHandler = () => {
       window.pageYOffset > 10 ? setTop(false) : setTop(true);
@@ -185,7 +184,7 @@ const Header= () => {
             </nav>
 
             <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
-              <a href="#">
+              <a href="#section">
                 <span className="sr-only">Facebook icon</span>
                 <svg
                   className="fill-current text-primary-dark hover:text-blue-600"
@@ -211,7 +210,7 @@ const Header= () => {
                   />
                 </svg>
               </a>
-              <a href="#" className="ml-4">
+              <a href="#section" className="ml-4">
                 <span className="sr-only">Line icon</span>
                 <svg
                   className="fill-current text-primary-dark hover:text-green-500"
@@ -273,35 +272,35 @@ const Header= () => {
               <div className="mt-6">
                 <nav className="flex flex-col justify-center items-center text-lg">
                   <a
-                    href="#"
+                    href="#section"
                     className="relative mb-10 group font-medium transition-colors focus:outline-none hover:text-primary-dark"
                   >
                     分類項目
                     <span className="absolute left-0 -bottom-2 w-full border-b-2 border-primary-dark transform scale-x-0 origin-left transition-all duration-500 group-hover:scale-x-100"></span>
                   </a>
                   <a
-                    href="#"
+                    href="#section"
                     className="relative mb-10 group font-medium transition-colors focus:outline-none hover:text-primary-dark"
                   >
                     分類項目
                     <span className="absolute left-0 -bottom-2 w-full border-b-2 border-primary-dark transform scale-x-0 origin-left transition-all duration-500 group-hover:scale-x-100"></span>
                   </a>
                   <a
-                    href="#"
+                    href="#section"
                     className="relative mb-10 group font-medium transition-colors focus:outline-none hover:text-primary-dark"
                   >
                     分類項目
                     <span className="absolute left-0 -bottom-2 w-full border-b-2 border-primary-dark transform scale-x-0 origin-left transition-all duration-500 group-hover:scale-x-100"></span>
                   </a>
                   <a
-                    href="#"
+                    href="#section"
                     className="relative mb-10 group font-medium transition-colors focus:outline-none hover:text-primary-dark"
                   >
                     分類項目
                     <span className="absolute left-0 -bottom-2 w-full border-b-2 border-primary-dark transform scale-x-0 origin-left transition-all duration-500 group-hover:scale-x-100"></span>
                   </a>
                   <a
-                    href="#"
+                    href="#section"
                     className="relative group font-medium transition-colors focus:outline-none hover:text-primary-dark"
                   >
                     分類項目
@@ -312,7 +311,7 @@ const Header= () => {
             </div>
             <div className="py-10 px-5 space-y-6">
               <div className="flex items-center justify-center">
-                <a href="#">
+                <a href="#section">
                   <span className="sr-only">Facebook icon</span>
                   <svg
                     className="fill-current text-primary-dark hover:text-blue-600"
@@ -338,7 +337,7 @@ const Header= () => {
                     />
                   </svg>
                 </a>
-                <a href="#" className="ml-4">
+                <a href="#section" className="ml-4">
                   <span className="sr-only">Line icon</span>
                   <svg
                     className="fill-current text-primary-dark hover:text-green-500"

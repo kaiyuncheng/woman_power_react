@@ -13,9 +13,11 @@ import VideoSection from './components/VideoSection';
 import Banner from './components/Banner';
 import Corporation from './components/Corporation';
 import Footer from './components/Footer';
+import GoTop from './components/GoTop';
 function App() {
   return (
     <div className="App">
+      <GoTop />
       <Loader
         className="z-50 fixed bg-primary-light w-screen h-screen flex justify-center items-center"
         type="Oval"
@@ -32,6 +34,8 @@ function App() {
       <Banner />
       <Corporation />
       <Footer />
+
+      
 
       
     </div>

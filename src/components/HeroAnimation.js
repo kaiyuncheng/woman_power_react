@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import heroBgLg from '../images/hero_big_title_lg.png';
 import heroBgMd from '../images/hero_big_title_md.png';
 import heroBgSm from '../images/hero_big_title_sm.png';
