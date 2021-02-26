@@ -24,9 +24,8 @@ function App() {
         color="#FF398D"
         height={100}
         width={100}
-        timeout={2000} //3 secs
+        timeout={1500} //3 secs
       />
-
       <Header />
       <Hero />
       <SlidersSection />

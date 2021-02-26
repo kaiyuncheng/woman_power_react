@@ -6,7 +6,7 @@ function SamplePrevArrow({ onClick }) {
     <button
       type="button"
       onClick={onClick}
-      className="prev block absolute left-0 top-24 z-40 sm:-left-16 sm:top-1/2 transform sm:-translate-y-1/2 group lg:p-4 p-3 rounded-full bg-primary-dark hover:bg-secondary-dark focus:outline-none transition-colors duration-500"
+      className="prev block absolute left-0 top-24 z-30 sm:-left-16 sm:top-1/2 transform sm:-translate-y-1/2 group lg:p-4 p-3 rounded-full bg-primary-dark hover:bg-secondary-dark focus:outline-none transition-colors duration-500"
     >
       <span className="animate-ping absolute left-0 top-0 inline-flex h-full w-full rounded-full bg-primary-dark opacity-50"></span>
       <svg
@@ -49,7 +49,7 @@ function SampleNextArrow({ onClick }) {
     <button
       type="button"
       onClick={onClick}
-      className="next block absolute right-0 top-24 z-40  sm:-right-16 sm:top-1/2 transform sm:-translate-y-1/2 group lg:p-4 p-3 rounded-full bg-primary-dark hover:bg-secondary-dark focus:outline-none transition-colors duration-500"
+      className="next block absolute right-0 top-24 z-30  sm:-right-16 sm:top-1/2 transform sm:-translate-y-1/2 group lg:p-4 p-3 rounded-full bg-primary-dark hover:bg-secondary-dark focus:outline-none transition-colors duration-500"
     >
       <span className="animate-ping absolute left-0 top-0 inline-flex h-full w-full rounded-full bg-primary-dark opacity-50"></span>
       <svg
@@ -145,7 +145,7 @@ const SliderTop = ({ topics, isReverse }) => {
                     >
                       <div className="text-group">
                         <h3 className="relative flex text-lg font-medium text-brown-dark mb-3 lg:mb-4 leading-relaxed">
-                          <span className="inline-block decoration w-1 h-8 mr-3 bg-secondary-dark"></span>
+                          <span className="inline-block decoration w-2 h-8 mr-3 bg-secondary-dark"></span>
                           {item.title}
                         </h3>
 

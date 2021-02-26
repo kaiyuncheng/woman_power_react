@@ -126,10 +126,8 @@ const VideoSection = () => {
                     {topic.contents}
                   </p>
                 </div>
-
                 <a
                   href={topic.link}
-                  type="button"
                   className="self-end group border border-white text-white inline-flex items-center py-1 px-10 rounded-full hover:text-primary-dark hover:bg-white hover:border-primary-dark focus:outline-none transition-colors duration-500"
                 >
                   <span className="font-medium mr-2">閱讀更多</span>
