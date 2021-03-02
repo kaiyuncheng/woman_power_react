@@ -9,7 +9,7 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import SlidersSection from './components/SlidersSection';
 import VideoSection from './components/VideoSection';
-import Banner from './components/Banner';
+// import Banner from './components/Banner';
 import Corporation from './components/Corporation';
 import Footer from './components/Footer';
 import GoTop from './components/GoTop';
@@ -29,7 +29,7 @@ function App() {
       <Hero />
       <SlidersSection />
       <VideoSection />
-      <Banner />
+      {/* <Banner /> */}
       <Corporation />
       <Footer />
       
