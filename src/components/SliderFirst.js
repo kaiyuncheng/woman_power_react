@@ -14,7 +14,7 @@ const SliderFirst = ({ title, titleMobile, titleID, topTopics, bottomTopics }) =
       <div id={titleID} className="section w-full pt-32 mb-18">
         <div className="relative max-w-screen-2xl mx-auto px-3 lg:px-6">
           
-          <div className="title_group flex justify-center">
+          <div className="title_group flex justify-center mb-16">
             <div className="title_image relative -mt-20 sm:-mt-10 h-16 sm:h-8">
               <Fade bottom>
               <img
@@ -33,25 +33,25 @@ const SliderFirst = ({ title, titleMobile, titleID, topTopics, bottomTopics }) =
           </div>
           
           <Fade bottom>   
-          <div className="sliders">
+          <div className="sliders mb-36">
             <div
               className="slider_top relative py-16 px-0 mx-auto bg-contain bg-center-right bg-no-repeat"
               style={{ backgroundImage: `url(${shapeTop})` }}
             >
-              <div className="absolute bottom-0">
+              {/* <div className="absolute -bottom-14">
                 <img src={divide} alt="" />
-              </div>
+              </div> */}
               <SliderTop topics={topTopics} />
             </div>
 
-            <div
+            {/* <div
               className="slider_bottom relative py-16 px-0 mx-auto"
               style={{
                 background: `left 40px bottom 40px / 300px no-repeat url(${shapeBottom})`,
               }}
             >
               <SliderBottom topics={bottomTopics} />
-            </div>
+            </div> */}
             
           </div>
           </Fade>

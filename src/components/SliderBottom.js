@@ -159,9 +159,9 @@ const SliderBottom = ({ topics, isReverse }) => {
                         </svg>
                       </a>
                     </div>
-                    <div className={`slider_image w-full md:h-72 lg:w-1/3 lg:h-auto order-first ${!isReverse && 'lg:order-last'}`}>
+                    <div className={`slider_image w-full h-72 md:h-96 lg:w-1/3 lg:h-auto order-first ${!isReverse && 'lg:order-last'}`}>
                       <img
-                        className="rounded-2xl shadow-md w-full h-full object-cover"
+                        className="block rounded-2xl shadow-md w-full h-full object-cover"
                         src={item.image}
                         alt="section"
                       />

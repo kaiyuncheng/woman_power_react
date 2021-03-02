@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import Fade from "react-reveal/Fade";
 import bgVideo from "../assets/images/bg_orange_03.png";
-import SliderVideo from "./SliderVideo";
+import videoImage from "../assets/images/video_dreamsbrows.jpg"
+// import SliderVideo from "./SliderVideo";
 
 const topicsVideo = [
   {
@@ -118,7 +119,7 @@ const VideoSection = () => {
               </div>
 
               <div className="relative py-16 lg:px-20 md:px-16 sm:px-14 px-2 mx-auto">
-                <div className="slider_text w-full flex flex-col justify-between">
+                <div className="slider_text w-full flex flex-col justify-between mb-20">
                   <div className="text_group">
                     <h3 className="relative flex items-center text-lg font-medium text-secondary-dark mb-3 leading-relaxed">
                       <span className="inline-block decoration w-1 h-8 mr-3 bg-white"></span>
@@ -130,9 +131,9 @@ const VideoSection = () => {
                   </div>
                   <a
                     href={topic.link}
-                    className="self-end group border border-white text-white inline-flex items-center py-1 px-10 rounded-full hover:text-primary-dark hover:bg-white hover:border-primary-dark focus:outline-none transition-colors duration-500"
+                    className="self-end cursor-pointer group border border-white text-white inline-flex items-center py-1 px-10 rounded-full hover:text-primary-dark hover:bg-white hover:border-primary-dark focus:outline-none transition-colors duration-500"
                   >
-                    <span className="font-medium mr-2">閱讀更多</span>
+                    <span className="font-medium mr-2">前往了解</span>
                     <svg
                       className="fill-current text-transparent stroke-1 transform -rotate-90 transition-all duration-500 translate-x-0 group-hover:translate-x-4 group-hover:stroke-0 group-hover:text-primary-dark"
                       xmlns="http://www.w3.org/2000/svg"
@@ -150,15 +151,23 @@ const VideoSection = () => {
                     </svg>
                   </a>
                 </div>
+
+                <div
+                  class="video_image w-full rounded-2xl overflow-hidden shadow-md"
+                >
+                  <img src={videoImage} alt="Dream’s Brows 職人手工美學" class="w-full block"/>
+                </div>
+                
+              
               </div>
             </div>
           </div>
 
-          <div className="relative max-w-screen-2xl mx-auto pt-1">
+          {/* <div className="relative max-w-screen-2xl mx-auto pt-1">
             <SliderVideo data={data} setTopic={setTopic} />
             <div className="2xl:block hidden overflow-hidden bg-gradient-to-b from-transparent via-secondary-medium h-full w-1 transform scale-y-110 absolute top-0 -left-1"></div>
             <div className="2xl:block hidden overflow-hidden bg-gradient-to-b from-transparent via-secondary-medium h-full w-1 transform scale-y-110 absolute top-0 -right-1"></div>
-          </div>
+          </div> */}
         </Fade>
       </div>
     </>

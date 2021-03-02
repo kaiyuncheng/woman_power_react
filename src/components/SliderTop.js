@@ -131,11 +131,11 @@ const SliderTop = ({ topics, isReverse }) => {
                       !isReverse && "lg:space-x-5"
                     } ${isReverse && "lg:space-x-0"}`}
                   >
-                    <div className="slider_image w-full md:h-72 lg:w-1/2 lg:h-auto overflow-hidden">
+                    <div className="slider_image w-full h-72 md:h-96 lg:w-1/2 lg:h-auto overflow-hidden">
                       <img
-                        className="rounded-2xl shadow-md w-full h-full object-cover"
+                        className="block rounded-2xl shadow-md w-full h-full object-cover"
                         src={item.image}
-                        alt="section woman"
+                        alt={item.title}
                       />
                     </div>
                     <div
