@@ -1,4 +1,4 @@
-import bgHero from '../images/bg_orange_01.png';
+import bgHero from '../assets/images/bg_orange_01.png';
 import HeroAnimation from './HeroAnimation';
 
 
@@ -12,8 +12,7 @@ const Hero = () => (
         <HeroAnimation />
 
         <div className="btn mb-14">
-          <button
-            type="button"
+          <a href="#打造財務自由"
             className="animate-bounce scroll_btn relative group text-brown-dark inline-flex items-center hover:text-primary-dark focus:outline-none"
           >
             <span className="font-semibold italic mr-4 transform translate-y-0 transition-all duration-500 group-hover:translate-y-2">
@@ -34,7 +33,7 @@ const Hero = () => (
                 transform="translate(0.503 -10.24)"
               />
             </svg>
-          </button>
+          </a>
         </div>
       </div>
     </div>

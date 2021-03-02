@@ -1,11 +1,11 @@
 import React from "react";
-import heroBgLg from "../images/hero_big_title_lg.png";
-import heroBgMd from "../images/hero_big_title_md.png";
-import heroBgSm from "../images/hero_big_title_sm.png";
-import shapeRight from "../images/shape2.svg";
-import shapeLeft from "../images/shape1.svg";
-import group2021 from "../images/group_2021.png";
-import groupTitle from "../images/group_title.png";
+import heroBgLg from "../assets/images/hero_big_title_lg.png";
+import heroBgMd from "../assets/images/hero_big_title_md.png";
+import heroBgSm from "../assets/images/hero_big_title_sm.png";
+import shapeRight from "../assets/images/shape2.svg";
+import shapeLeft from "../assets/images/shape1.svg";
+import group2021 from "../assets/images/group_2021.png";
+import groupTitle from "../assets/images/group_title.png";
 const HeroAnimation = () => {
   return (
     <>

@@ -1,32 +1,42 @@
-import bgSlider from '../images/bg_orange_02.png'
-import title from "../images/title_01.png";
-import shapeTop from "../images/shape_top_pink.png";
-import shapeBottom from "../images/shape_bottom.svg";
-import divide from "../images/divide_2.png";
+import Fade from "react-reveal/Fade";
+
+import bgSlider from '../assets/images/bg_orange_02.png'
+import shapeTop from "../assets/images/shape_top_pink.png";
+import shapeBottom from "../assets/images/shape_bottom.svg";
+import divide from "../assets/images/divide_2.png";
 import SliderTop from "./SliderTop";
 import SliderBottom from "./SliderBottom";
 
-const SliderSecond = ({topTopics, bottomTopics}) => {
+const SliderSecond = ({title, titleMobile, titleID, topTopics, bottomTopics}) => {
   const isReverse = true;
 
   return (
     <>
-      <div className="section relative w-full pt-40 pb-24 mb-18 bg-small lg:bg-full bg-right-bottom bg-no-repeat"
+      <div id={titleID} className="section relative w-full pt-40 pb-24 mb-18 bg-small lg:bg-full bg-right-bottom bg-no-repeat"
         style={{ backgroundImage: `url(${bgSlider})` }}
       >
         <div className="max-w-screen-2xl mx-auto px-3 lg:px-6">
           <div className="title_group flex justify-center">
-          <div className="title_image -mt-9 mr-4 h-8 absolute right-1/4 mr-4">
+          <div className="title_image -mt-20 sm:-mt-10 mr-4 h-16 sm:h-8 absolute right-1/4">
+             <Fade bottom>
               <img
-                className="h-full w-auto object-contain object-left-top"
+                className="hidden sm:block h-full w-auto object-contain object-left-top"
                 src={title}
-                alt="title"
+                alt={titleID}
               />
+              <img
+                className="block sm:hidden h-full w-auto object-contain object-left-top"
+                src={titleMobile}
+                alt={titleID}
+              />
+              </Fade>
             </div>
             <div
               className="direction absolute right-0 w-1/4 h-1 -mt-6 bg-gradient-to-l transition-all duration-500 from-primary-medium to-secondary-dark"
             ></div>
           </div>
+
+          <Fade bottom>
 
           <div className="sliders">
             <div
@@ -48,6 +58,8 @@ const SliderSecond = ({topTopics, bottomTopics}) => {
              <SliderBottom topics={bottomTopics} isReverse={isReverse} />
             </div>
           </div>
+
+          </Fade>
         </div>
       </div>
     </>

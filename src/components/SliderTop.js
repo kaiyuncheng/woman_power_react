@@ -49,7 +49,7 @@ function SampleNextArrow({ onClick }) {
     <button
       type="button"
       onClick={onClick}
-      className="next block absolute right-0 top-24 z-30  sm:-right-16 sm:top-1/2 transform sm:-translate-y-1/2 group lg:p-4 p-3 rounded-full bg-primary-dark hover:bg-secondary-dark focus:outline-none transition-colors duration-500"
+      className="next block absolute right-0 top-24 z-30 sm:-right-16 sm:top-1/2 transform sm:-translate-y-1/2 group lg:p-4 p-3 rounded-full bg-primary-dark hover:bg-secondary-dark focus:outline-none transition-colors duration-500"
     >
       <span className="animate-ping absolute left-0 top-0 inline-flex h-full w-full rounded-full bg-primary-dark opacity-50"></span>
       <svg
@@ -149,10 +149,12 @@ const SliderTop = ({ topics, isReverse }) => {
                           {item.title}
                         </h3>
 
-                        <p className="flex md:text-base text-sm font-light text-brown-dark mb-4 leading-relaxed">
+                        {item.contents.map((content, i) => {
+                          return(<p key={`content${i}`} className="flex md:text-base text-sm font-light text-brown-dark mb-4 leading-relaxed">
                           <span className="mr-4"></span>
-                          {item.contents}
-                        </p>
+                          {content}
+                        </p>);
+                        })}
                       </div>
 
                       <a

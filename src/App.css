@@ -11,6 +11,8 @@ body{
   linear-gradient(to right,#25526e1a 1px,transparent 1px),
   linear-gradient(to bottom,#25526e1a 1px,transparent 1px),
   linear-gradient(to bottom,#FBF8F8 ,#FBF8F8);
+  scroll-behavior: smooth;
+
 }
 
 .hero{
@@ -55,6 +57,10 @@ body{
 }
 
 @media (min-width: 1280px){
+  .hero{
+    max-height: 1080px;
+  }
+
   .video_image{
     height: 600px;
   }
@@ -155,6 +161,10 @@ body{
   stroke-dashoffset: 1000;
   animation: dash .8s linear 5s both;
   
+}
+
+.scroll_btn{
+  animation: fade 1s linear both 5s;
 }
 
 @media (min-width: 568px){

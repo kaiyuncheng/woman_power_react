@@ -1,10 +1,9 @@
 import React from 'react';
-
+import Loader from "react-loader-spinner";
+import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './App.css';
-import Loader from "react-loader-spinner";
-import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 
 import Header from './components/Header';
 import Hero from './components/Hero';
@@ -20,11 +19,11 @@ function App() {
       <GoTop />
       <Loader
         className="z-50 fixed bg-primary-light w-screen h-screen flex justify-center items-center"
-        type="Oval"
+        type="Rings"
         color="#FF398D"
         height={100}
         width={100}
-        timeout={1500} //3 secs
+        timeout={500} //3 secs
       />
       <Header />
       <Hero />
@@ -33,9 +32,6 @@ function App() {
       <Banner />
       <Corporation />
       <Footer />
-
-      
-
       
     </div>
   );

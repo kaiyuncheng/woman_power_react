@@ -1,4 +1,8 @@
 import React, { useState, useEffect } from 'react';
+import Fade from "react-reveal/Fade";
+
+const menuTitles = ['打造財務自由', '探索身心靈，發現自我價值', '不能只我好，也要大家一起好', '靚麗人生提案' , '合作夥伴']
+
 const Header= () => {
   const [menuState, setMenuState] = useState('scale-0');
   const [top, setTop] = useState(true);
@@ -23,6 +27,7 @@ const Header= () => {
 
 
   return (
+    <Fade top>
     <header
       className={`sticky top-0 left-0 z-40 ${
         !top && 'bg-primary-light bg-opacity-75 blur shadow-md'
@@ -136,52 +141,17 @@ const Header= () => {
               </button>
             </div>
             <nav className="hidden text-base text-brown-dark md:flex space-x-10">
-              <div className="relative">
-                <button
-                  type="button"
-                  className="group py-1 border-white inline-flex font-medium transition-colors focus:outline-none hover:text-primary-dark"
+             {menuTitles.map((title, i)=>{
+               return (<div className="relative" key={`menu_item${i}`}>
+                <a href={`#${title}`} className="group py-1 text-center border-white inline-flex font-medium transition-colors focus:outline-none hover:text-primary-dark"
                 >
-                  分類項目
+                  {title}
                   <span className="absolute left-0 bottom-0 w-full border-b-2 border-white transform scale-x-0 origin-left transition-all duration-500 group-hover:scale-x-100"></span>
-                </button>
+                </a>
               </div>
-              <div className="relative">
-                <button
-                  type="button"
-                  className="group py-1 border-white inline-flex font-medium transition-colors focus:outline-none hover:text-primary-dark"
-                >
-                  分類項目
-                  <span className="absolute left-0 bottom-0 w-full border-b-2 border-white transform scale-x-0 origin-left transition-all duration-500 group-hover:scale-x-100"></span>
-                </button>
-              </div>
-              <div className="relative">
-                <button
-                  type="button"
-                  className="group py-1 border-white inline-flex font-medium transition-colors focus:outline-none hover:text-primary-dark"
-                >
-                  分類項目
-                  <span className="absolute left-0 bottom-0 w-full border-b-2 border-white transform scale-x-0 origin-left transition-all duration-500 group-hover:scale-x-100"></span>
-                </button>
-              </div>
-              <div className="relative">
-                <button
-                  type="button"
-                  className="group py-1 border-white inline-flex font-medium transition-colors focus:outline-none hover:text-primary-dark"
-                >
-                  分類項目
-                  <span className="absolute left-0 bottom-0 w-full border-b-2 border-white transform scale-x-0 origin-left transition-all duration-500 group-hover:scale-x-100"></span>
-                </button>
-              </div>
-              <div className="relative">
-                <button
-                  type="button"
-                  className="group py-1 border-white inline-flex font-medium transition-colors focus:outline-none hover:text-primary-dark"
-                >
-                  分類項目
-                  <span className="absolute left-0 bottom-0 w-full border-b-2 border-white transform scale-x-0 origin-left transition-all duration-500 group-hover:scale-x-100"></span>
-                </button>
-              </div>
-            </nav>
+              )
+             })}
+              </nav>
 
             <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
               <a href="#section">
@@ -271,42 +241,17 @@ const Header= () => {
               </div>
               <div className="mt-6">
                 <nav className="flex flex-col justify-center items-center text-lg">
-                  <a
-                    href="#section"
+
+                {menuTitles.map((title, i)=>{
+               return (<a
+                    href={`#${title}`} key={`toggle_item${i}`} onClick={toggleMenu}
                     className="relative mb-10 group font-medium transition-colors focus:outline-none hover:text-primary-dark"
                   >
-                    分類項目
+                     {title}
                     <span className="absolute left-0 -bottom-2 w-full border-b-2 border-primary-dark transform scale-x-0 origin-left transition-all duration-500 group-hover:scale-x-100"></span>
-                  </a>
-                  <a
-                    href="#section"
-                    className="relative mb-10 group font-medium transition-colors focus:outline-none hover:text-primary-dark"
-                  >
-                    分類項目
-                    <span className="absolute left-0 -bottom-2 w-full border-b-2 border-primary-dark transform scale-x-0 origin-left transition-all duration-500 group-hover:scale-x-100"></span>
-                  </a>
-                  <a
-                    href="#section"
-                    className="relative mb-10 group font-medium transition-colors focus:outline-none hover:text-primary-dark"
-                  >
-                    分類項目
-                    <span className="absolute left-0 -bottom-2 w-full border-b-2 border-primary-dark transform scale-x-0 origin-left transition-all duration-500 group-hover:scale-x-100"></span>
-                  </a>
-                  <a
-                    href="#section"
-                    className="relative mb-10 group font-medium transition-colors focus:outline-none hover:text-primary-dark"
-                  >
-                    分類項目
-                    <span className="absolute left-0 -bottom-2 w-full border-b-2 border-primary-dark transform scale-x-0 origin-left transition-all duration-500 group-hover:scale-x-100"></span>
-                  </a>
-                  <a
-                    href="#section"
-                    className="relative group font-medium transition-colors focus:outline-none hover:text-primary-dark"
-                  >
-                    分類項目
-                    <span className="absolute left-0 -bottom-2 w-full border-b-2 border-primary-dark transform scale-x-0 origin-left transition-all duration-500 group-hover:scale-x-100"></span>
-                  </a>
-                </nav>
+                  </a>)
+             })}
+              </nav>
               </div>
             </div>
             <div className="py-10 px-5 space-y-6">
@@ -369,6 +314,7 @@ const Header= () => {
         </div>
       </div>
     </header>
+    </Fade>
   );
 };
   
