@@ -1,8 +1,8 @@
 import Fade from "react-reveal/Fade";
 import bgFooter from '../../assets/images/bg_orange_04.png'
 
-
 const Footer = () => {
+
   return (
     <>
       <footer
@@ -15,7 +15,7 @@ const Footer = () => {
           <br />
           專題製作:｜今周刊 數位內容部
           <br />
-          數位Copyright © 2021 今周刊.All rights reserved.
+          數位Copyright © {new Date().getFullYear()} 今周刊.All rights reserved.
           版權所有，禁止擅自轉貼節錄
         </p>
       </Fade>

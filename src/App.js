@@ -9,7 +9,6 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import SlidersSection from './components/SlidersSection';
 import VideoSection from './components/VideoSection';
-// import Banner from './components/Banner';
 import Corporation from './components/Corporation';
 import Footer from './components/Footer';
 import GoTop from './components/GoTop';
@@ -23,16 +22,14 @@ function App() {
         color="#FF398D"
         height={100}
         width={100}
-        timeout={500} //3 secs
+        timeout={500} 
       />
       <Header />
       <Hero />
       <SlidersSection />
       <VideoSection />
-      {/* <Banner /> */}
       <Corporation />
       <Footer />
-      
     </div>
   );
 }

@@ -167,6 +167,8 @@ body{
   animation: fade 1s linear both 5s;
 }
 
+
+
 @media (min-width: 568px){
   .face_left_svg{
     width: 326px;
@@ -277,12 +279,46 @@ body{
 @keyframes swing {
   0% {
     transform: scale(1) translate(0px, 0px) rotate(0deg);
-    
   }
   50%{
     transform: scale(1) translate(0px, 0px)  rotate(2deg);
   }
   100% {
     transform: scale(1) translate(0px, 0px)  rotate(0deg);
+  } 
+}
+
+
+/* video section animation */
+
+.video_leaves_left{
+  animation: videoSwingLeft 4s linear infinite;
+}
+
+.video_leaves_right{
+  animation: videoSwingRight 4s linear infinite;
+}
+
+@keyframes videoSwingLeft {
+  0% {
+    transform: rotate(90deg);
+  }
+  50%{
+    transform: rotate(95deg);
+  }
+  100% {
+    transform: rotate(90deg);
+  } 
+}
+
+@keyframes videoSwingRight {
+  0% {
+    transform: rotate(-90deg);
+  }
+  50%{
+    transform: rotate(-85deg);
+  }
+  100% {
+    transform: rotate(-90deg);
   } 
 }

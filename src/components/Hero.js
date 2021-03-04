@@ -5,7 +5,7 @@ import HeroAnimation from './HeroAnimation';
 const Hero = () => (
   <>
     <div
-      className="section hero w-full -mt-20 pt-20 md:pt-20 lg:pt-20 overflow-hidden bg-right-bottom bg-cover bg-no-repeat"
+      className="section hero w-full -mt-20 pt-20 md:-mt-40 md:pt-40 lg:-mt-24 lg:pt-24 overflow-hidden bg-right-bottom bg-cover bg-no-repeat"
       style={{ backgroundImage: `url(${bgHero})` }}
     >
       <div className="relative w-full h-full max-w-screen-2xl mx-auto px-3 lg:px-6 flex flex-col justify-center items-center">

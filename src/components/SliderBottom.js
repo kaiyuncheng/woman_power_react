@@ -6,7 +6,7 @@ function SamplePrevArrow({ onClick }) {
     <button
       type="button"
       onClick={onClick}
-      className="prev block absolute left-0 top-28 z-30 sm:-left-16 sm:top-1/2 transform sm:-translate-y-1/2 group lg:p-4 p-3 rounded-full bg-secondary-bg hover:bg-secondary-dark focus:outline-none transition-colors duration-500"
+      className="prev block absolute left-0 top-32 z-30 sm:-left-16 sm:top-1/2 transform sm:-translate-y-1/2 group lg:p-4 p-3 rounded-full bg-secondary-bg hover:bg-secondary-dark focus:outline-none transition-colors duration-500"
     >
       <span className="animate-ping absolute left-0 top-0 inline-flex h-full w-full rounded-full border border-secondary-dark opacity-100"></span>
       <svg
@@ -47,7 +47,7 @@ function SampleNextArrow({ onClick }) {
     <button
       type="button"
       onClick={onClick}
-      className="next block absolute right-0 top-28 z-30 sm:-right-16 sm:top-1/2 transform sm:-translate-y-1/2 group lg:p-4 p-3 rounded-full bg-secondary-bg hover:bg-secondary-dark focus:outline-none transition-colors duration-500"
+      className="next block absolute right-0 top-32 z-30 sm:-right-16 sm:top-1/2 transform sm:-translate-y-1/2 group lg:p-4 p-3 rounded-full bg-secondary-bg hover:bg-secondary-dark focus:outline-none transition-colors duration-500"
     >
       <span className="animate-ping absolute left-0 top-0 inline-flex h-full w-full rounded-full border border-secondary-dark opacity-100"></span>
       <svg
@@ -127,14 +127,18 @@ const SliderBottom = ({ topics, isReverse }) => {
                   <div className={`flex flex-col space-y-4 lg:space-y-0 lg:flex-row ${!isReverse && 'lg:space-x-5'} ${isReverse && 'lg:space-x-0'}`}>
                     <div className={`slider_text w-full lg:w-2/3 flex flex-col justify-between ${isReverse && 'lg:pl-5'}`}>
                       <div className="text_group mt-5">
-                        <h3 className="relative flex items-center text-lg font-medium text-brown-dark mb-3 lg:mb-4 leading-relaxed">
+                        <h3 className="relative flex items-center text-lg md:text-lg font-bold text-brown-dark mb-3 lg:mb-4 leading-relaxed">
                           <span className="inline-block decoration w-1 h-8 mr-3 bg-secondary-dark"></span>
                           {item.title}
                         </h3>
-                        <p className="flex md:text-base text-sm font-light text-brown-dark mb-4 leading-relaxed">
+                        {item.contents && item.contents.map((content, i) => {
+                          return(<p key={`content${i}`} className="flex md:text-md text-base font-normal text-brown-dark mb-4 ">
                           <span className="mr-4"></span>
-                          {item.contents}
-                        </p>
+                          {content}
+                        </p>);
+                        })}
+
+                        
                       </div>
 
                       <a
