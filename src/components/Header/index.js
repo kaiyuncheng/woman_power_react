@@ -31,7 +31,7 @@ const Header = () => {
           <div className="max-w-screen-2xl mx-auto px-3 lg:px-6">
             <div className="flex justify-between items-center py-4 md:justify-start md:space-x-10">
               <div className="flex justify-start lg:flex-1">
-                <a href="https://www.businesstoday.com.tw">
+                <a href="https://www.businesstoday.com.tw" target="_blank" rel="noreferrer">
                   <span className="sr-only">Logo</span>
                   <svg
                     className="fill-current text-primary-dark hover:text-red-500 transition-colors duration-300"
@@ -151,7 +151,7 @@ const Header = () => {
               </nav>
 
               <div className="hidden md:flex items-center justify-end md:flex-1 ">
-                <a href="https://www.facebook.com/share.php?u=https://www.businesstoday.com.tw/topic/2021/powerofwomen">
+                <a href="https://www.facebook.com/share.php?u=https://www.businesstoday.com.tw/topic/2021/powerofwomen" target="_blank" rel="noreferrer">
                   <span className="sr-only">Facebook icon</span>
                   <svg
                     className="fill-current text-primary-dark hover:text-blue-600 transition-colors duration-300"
@@ -178,9 +178,8 @@ const Header = () => {
                   </svg>
                 </a>
                 <a
-                  href="https://social-plugins.line.me/lineit/share?url=https://www.businesstoday.com.tw/topic/2021/powerofwomen"
-                  className="ml-4"
-                >
+                  href="https://social-plugins.line.me/lineit/share?url=https://www.businesstoday.com.tw/topic/2021/powerofwomen" target="_blank" rel="noreferrer"
+                  className="ml-4">
                   <span className="sr-only">Line icon</span>
                   <svg
                     className="fill-current text-primary-dark hover:text-green-500 transition-colors duration-300"
@@ -259,7 +258,7 @@ const Header = () => {
               </div>
               <div className="py-10 px-5 space-y-6">
                 <div className="flex items-center justify-center">
-                  <a href="https://www.facebook.com/share.php?u=https://www.businesstoday.com.tw/topic/2021/powerofwomen">
+                  <a href="https://www.facebook.com/share.php?u=https://www.businesstoday.com.tw/topic/2021/powerofwomen" target="_blank" rel="noreferrer">
                     <span className="sr-only">Facebook icon</span>
                     <svg
                       className="fill-current text-primary-dark hover:text-blue-600"
@@ -286,7 +285,7 @@ const Header = () => {
                     </svg>
                   </a>
                   <a
-                    href="https://social-plugins.line.me/lineit/share?url=https://www.businesstoday.com.tw/topic/2021/powerofwomen"
+                    href="https://social-plugins.line.me/lineit/share?url=https://www.businesstoday.com.tw/topic/2021/powerofwomen" target="_blank" rel="noreferrer"
                     className="ml-4"
                   >
                     <span className="sr-only">Line icon</span>

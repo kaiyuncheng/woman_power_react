@@ -5,19 +5,9 @@ import titleFirst from "../assets/images/title_01.png";
 import titleSecond from "../assets/images/title_02.png";
 import titleThird from "../assets/images/title_03.png";
 
-import picture from "../assets/images/picture1.jpeg";
-
-import topicPurin from "../assets/images/topic_purin.jpg";
 import topicMissq from "../assets/images/topic_missq.jpg";
-
 import topicYao from "../assets/images/topic_yao.jpg";
-
-import topicShih from "../assets/images/topic_shih.jpg";
-import topicLove from "../assets/images/topic_love.jpg";
-import topicFish from "../assets/images/topic_fish.jpg";
-
 import topicCheng from "../assets/images/topic_cheng.jpg";
-import topicTrust from "../assets/images/topic_trust.jpg";
 
 
 const topicsData = [
@@ -27,20 +17,20 @@ const topicsData = [
       {
         image: "https://doqvf81n9htmm.cloudfront.net/data/TommyHuang_147/all/LIU_1385a.jpg",
         link:
-          "https://www.businesstoday.com.tw/article/category/183027/post/202006120020/%E3%80%8C%E6%95%A3%E6%88%B6%E6%9C%83%E7%8A%AF%E7%9A%84%E9%8C%AF%EF%BC%8C%E6%88%91%E5%85%A8%E7%8A%AF%E4%BA%86%E2%80%A6%E3%80%8D%E6%9B%BE%E6%85%98%E8%B3%A0%E4%BA%94%E7%99%BE%E8%90%AC%E7%9A%84%E7%BE%8E%E5%A5%B3%E8%B2%A1%E7%B6%93%E4%B8%BB%E6%92%AD%E7%8E%8B%E5%BF%97%E9%83%81%E3%80%80%E5%A6%82%E4%BD%95%E9%9D%A0%E6%88%BF%E5%AD%90%E8%B7%9F%E5%9F%BA%E9%87%91%E7%B4%AF%E7%A9%8D%E5%8D%83%E8%90%AC%E8%BA%AB%E5%83%B9?",
-        title: "曾慘賠500萬 財經主播王志郁靠房子跟基金累積千萬身價",
+          "https://www.businesstoday.com.tw/article/category/183008/post/202006120020/%E3%80%8C%E6%95%A3%E6%88%B6%E6%9C%83%E7%8A%AF%E7%9A%84%E9%8C%AF%EF%BC%8C%E6%88%91%E5%85%A8%E7%8A%AF%E4%BA%86%E2%80%A6%E3%80%8D%E6%9B%BE%E6%85%98%E8%B3%A0%E4%BA%94%E7%99%BE%E8%90%AC%E7%9A%84%E7%BE%8E%E5%A5%B3%E8%B2%A1%E7%B6%93%E4%B8%BB%E6%92%AD%E7%8E%8B%E5%BF%97%E9%83%81%E3%80%80%E5%A6%82%E4%BD%95%E9%9D%A0%E6%88%BF%E5%AD%90%E8%B7%9F%E5%9F%BA%E9%87%91%E7%B4%AF%E7%A9%8D%E5%8D%83%E8%90%AC%E8%BA%AB%E5%83%B9?",
+        title: "曾慘賠500萬　財經主播王志郁靠房子跟基金　累積千萬身價",
         contents: [
           "有著財經專業背景，卻還是在股海裡大賠五百萬！財經主播王志郁自嘲，「所有散戶會犯的錯，像是聽信明牌、追高殺低等，她全都犯過一輪了」。",
-          "但是，在經過這堂「五百萬的投資理財課」之後，王志郁痛定思痛，找出開始重新審視、建立一套新的投資理財邏輯。她說，現在的資產配置非常簡單，分別是房子、股市及基金，各佔三分之一。",
+          "但是，在經過這堂「五百萬的投資理財課」之後，王志郁痛定思痛，開始重新審視、建立一套新的投資理財邏輯。她說，現在的資產配置非常簡單，分別是房子、股市及基金，各佔三分之一。",
           "經過幾年努力之後，不僅坐擁千萬身價，還因為痛過、賠過的經驗，決定以教導小資族投資理財為己任，讓所有曾跟她一樣在理財路上迷惘的年輕人，能找出屬於自己的理財方式。",
         ],
       },
       {
-        image: topicPurin,
+        image: "https://doqvf81n9htmm.cloudfront.net/data/jamiesu_149/2021FEB/0225/pd01.JPG",
         link:
-          "https://www.businesstoday.com.tw/article/category/183027/post/202009100038/",
+          "https://www.businesstoday.com.tw/article/category/183012/post/202102230037/%E4%B8%80%E5%B9%B4%E5%AD%98%E5%88%B0%E7%AC%AC%E4%B8%80%E6%A1%B6%E9%87%91%E3%80%81%E5%9D%90%E6%93%812%E7%AD%86%E6%88%BF%E7%94%A2%E3%80%8026%E6%AD%B2%E5%B0%8F%E8%B3%87%E5%A5%B3%E6%9B%9D%E5%85%89%E5%BF%83%E6%B3%95%EF%BC%9A%E8%AE%93%E8%87%AA%E5%B7%B1%E9%9A%A8%E6%99%82%E4%BF%9D%E6%8C%81%E6%9C%80%E6%96%B0%E7%8B%80%E6%85%8B",
         title:
-          "一年存到第一桶金、坐擁2筆房產 26歲小資女：隨時保持最新狀態",
+          "一年存一桶金、擁2房產　26歲小資女：保持最新狀態",
           contents: [
             "26歲的小資女Purin，來自單親家庭，在家中是獨生女，高三畢業、大學期間，積極利用課餘時間打工，一方面幫忙分擔家計，一方面賺取生活費。",
             "踏入職場後，Purin逼自己每個月至少存下一萬元，但她深知，理財不能單靠「節流」，更重要的是要懂得「開源」。",
@@ -51,9 +41,9 @@ const topicsData = [
       {
         image: topicMissq,
         link:
-          "https://www.businesstoday.com.tw/article/category/183027/post/202009100038/",
+          "https://www.businesstoday.com.tw/article/category/80407/post/202102260025/%E6%8A%95%E8%B3%87%E7%B6%93%E9%A9%9716%E5%B9%B4%E3%80%81%E8%A2%AB%E5%8B%95%E6%94%B6%E5%85%A5%E8%B6%85%E9%81%8E%E7%99%BE%E8%90%AC%E3%80%80%E5%82%B5%E5%88%B8%E9%81%94%E4%BA%BAMiss%20Q%EF%BC%9A%E8%B2%A1%E5%8B%99%E7%8D%A8%E7%AB%8B%E8%AE%93%E5%A5%B3%E6%80%A7%E6%9B%B4%E6%9C%89%E8%87%AA%E4%BF%A1%E3%80%81%E5%AE%89%E5%85%A8%E6%84%9F",
         title:
-          "被動收入超過百萬 債券達人MissQ：財務獨立讓女性更自信",
+          "被動收入超過百萬　MissQ：財務獨立讓女性更自信",
           contents: [
             "「我有一個學員，她的學、經歷都很好，但嫁到國外去之後，為了家庭決定當全職主婦，時間久了開始覺得自己沒有價值。」這是個讓MissQ留下深刻印象的案例。",
             "MissQ靠著投資波動較低的債券、特別股、REITs（不動產投資信託）及高息股票，在38歲就累積超過千萬資產，目前每年被動收入逾百萬。",
@@ -76,7 +66,7 @@ const topicsData = [
         image: 'https://doqvf81n9htmm.cloudfront.net/data/heidilin_146/2018.0721/2020.4.22/1140_LIU_1998.jpg',
         link:
           "https://www.businesstoday.com.tw/article/category/183012/post/202012300055/%E3%80%8C%E4%B8%8D%E8%A6%81%E5%B0%8F%E7%9C%8B%E6%AF%8F%E5%80%8B%E6%9C%88%E5%B9%BE%E5%8D%83%E5%85%83%E6%8A%95%E8%B3%87%E3%80%8D%20%20%E5%A4%96%E5%95%86%E6%8A%95%E4%BF%A1%E7%B8%BD%E5%BA%A7%E7%94%A8%E9%80%99%E6%8B%9B%E3%80%80%E7%82%BA%E5%AD%90%E5%A5%B3%E5%AD%98%E5%88%B0100%E8%90%AC%E5%85%83",
-        title: "「不要小看每個月幾千元」 外商投信總座用這招為子女存百萬",
+        title: "「不要小看每個月幾千元」　外商投信總座用這招為子女存百萬",
         contents: [
           "瀚亞投資台灣區總經理王伯莉投入金融業已近30年，是國內少數同時待過銀行、保險與投信業的總座。",
           "談起過去年輕時的投資經驗，她其實也跌過跤，一次就賠掉數個月的薪水。看過這麼多的保險與投資商品，王伯莉自己的理財做法卻非常簡單，「就是靠定期定額投資。我也跟大家一樣，在收入慢慢增加的同時，也多了照顧家庭、子女教育等支出，定期定額投資對我來說是最好的方法。」",
@@ -89,34 +79,33 @@ const topicsData = [
     name: "探索自我價值",
     top: [
       {
-        image: topicShih,
+        image: "https://doqvf81n9htmm.cloudfront.net/data/linhsinnan1_196/1612610406023.jpg",
         link:
-          "https://www.businesstoday.com.tw/article/category/183027/post/202009100038/",
-        title: "外商經理變身指名度最高健身教練 施怡如：你怎麼看待自己，決定你能成為誰",
+          "https://www.businesstoday.com.tw/article/category/183034/post/202102090024/%E5%A4%96%E5%95%86%E7%B6%93%E7%90%86%E8%AE%8A%E8%BA%AB%E6%8C%87%E5%90%8D%E5%BA%A6%E6%9C%80%E9%AB%98%E5%81%A5%E8%BA%AB%E6%95%99%E7%B7%B4%E3%80%80%E6%96%BD%E6%80%A1%E5%A6%82%EF%BC%9A%E4%BD%A0%E6%80%8E%E9%BA%BC%E7%9C%8B%E5%BE%85%E8%87%AA%E5%B7%B1%EF%BC%8C%E6%B1%BA%E5%AE%9A%E4%BD%A0%E8%83%BD%E6%88%90%E7%82%BA%E8%AA%B0",
+        title: "外商經理變健身教練　施怡如：你怎麼看自己，決定你能成為誰",
         contents: [
-          "有著財經專業背景，卻還是在股海裡大賠五百萬！財經主播王志郁自嘲，「所有散戶會犯的錯，像是聽信明牌、追高殺低等，她全都犯過一輪了」。",
-          "但是，在經過這堂「五百萬的投資理財課」之後，王志郁痛定思痛，找出開始重新審視、建立一套新的投資理財邏輯。她說，現在的資產配置非常簡單，分別是房子、股市及基金，各佔三分之一。",
-          "經過幾年努力之後，不僅坐擁千萬身價，還因為痛過、賠過的經驗，決定以教導小資族投資理財為己任，讓所有曾跟她一樣在理財路上迷惘的年輕人，能找出屬於自己的理財方式。",
+          "台大工商管理學系畢業，擊敗眾多競爭者，進入寶僑工作的施怡如，一路走來，都符合外界對「高材生」的想像；然而，被健身點燃的熱情，卻讓她開始反思，「現在的工作，是我以後想要的嗎？」",
+          "從外商公司到健身產業，對於這個似乎不太符合主流價值觀的轉變，施怡如認為，「這項轉變，它是平行的，就算大家覺得低（指健身教練工作不如外商），但怎麼讓它變高，在於我自己。」",
+          "如今，施怡如已是GYMEFIT指名度最高的教練，回顧這條「做自己」的轉職路，她說，「當我去滿足別人要的樣子時，我不可能成為最好的自己；在這個市場上，最後能成為誰，取決於你怎麼看待自己。」",
         ],
       },
       {
-        image: topicLove,
+        image: "https://doqvf81n9htmm.cloudfront.net/data/TommyHuang_147/all/KENS4472.jpg",
         link:
-          "https://www.businesstoday.com.tw/article/category/183027/post/202009100038/",
+          "https://www.businesstoday.com.tw/article/category/183036/post/202102240033/%E8%A2%AB%E5%8F%AB%E7%9E%8E%E5%AD%90%E3%80%81%E7%9B%B2%E8%83%9E%E4%B9%9F%E4%B8%8D%E5%9C%A8%E6%84%8F%EF%BC%81%E8%A6%96%E9%9A%9C%E5%BF%83%E7%90%86%E5%B8%AB%E6%9C%B1%E8%8A%AF%E5%84%80%E6%8E%A5%E7%B4%8D%E8%87%AA%E5%B7%B1%E3%80%80%E9%82%84%E6%83%B3%E5%B8%B6%E6%9B%B4%E5%A4%9A%E4%BA%BA%E8%B5%B0%E5%87%BA%E4%BD%8E%E8%B0%B7",
         title:
-          "被叫瞎子、盲胞也不在意！視障心理師朱芯儀接納自己 還想帶更多人走出低谷",
+          "被叫瞎子也不在乎！朱芯儀如何帶更多人走出情緒低谷？",
           contents: [
-            "有著財經專業背景，卻還是在股海裡大賠五百萬！財經主播王志郁自嘲，「所有散戶會犯的錯，像是聽信明牌、追高殺低等，她全都犯過一輪了」。",
-            "但是，在經過這堂「五百萬的投資理財課」之後，王志郁痛定思痛，找出開始重新審視、建立一套新的投資理財邏輯。她說，現在的資產配置非常簡單，分別是房子、股市及基金，各佔三分之一。",
-            "經過幾年努力之後，不僅坐擁千萬身價，還因為痛過、賠過的經驗，決定以教導小資族投資理財為己任，讓所有曾跟她一樣在理財路上迷惘的年輕人，能找出屬於自己的理財方式。",
+            "坦然自嘲自己「目中無人」的視障心理諮商師朱芯儀，在罹患腦瘤，歷經失明後，花了多年的時間才得已接納自己，甚至還成為全台以視障者身分考取高考心理諮商師的第一人，帶領許多人走出情緒低谷。",
+            "現在，對朱芯儀而言，「不管別人知不知道」，她內心早已接受如此獨一無二的自己，也因為走過中途失明的磨難，她才能做好諮商心理師的工作，更希望用自己的力量，與世界共好，讓每個人都可以成為他人的諮商師。",
           ],
       },
       {
-        image: topicFish,
+        image: "https://doqvf81n9htmm.cloudfront.net/data/jamiesu_149/2021FEB/0225/tri01.jpg",
         link:
-          "https://www.businesstoday.com.tw/article/category/183027/post/202009100038/",
+          "https://www.businesstoday.com.tw/article/category/80392/post/202102050027/%E5%8F%AA%E6%83%B3%E6%B4%BB%E4%B8%8B%E5%8E%BB%EF%BC%81%20%E7%8D%A8%E8%87%AA%E8%B5%B0%E9%81%8E%E7%80%95%E6%AD%BB26%E5%B0%8F%E6%99%82%E3%80%81%E5%BE%81%E6%9C%8D%E8%81%96%E6%AF%8D%E5%B3%B0%E3%80%80%E8%A9%B9%E5%96%AC%E6%84%89%E7%94%A8%E3%80%8C%E7%99%BB%E5%B1%B1%E3%80%8D%E5%BE%A9%E5%81%A5%EF%BC%9A%E5%A0%85%E6%8C%81%E5%81%9A%E8%87%AA%E5%B7%B1%E5%96%9C%E6%AD%A1%E7%9A%84%E4%BA%8B",
         title:
-          "獨自走過瀕死26小時、征服聖母峰 詹喬愉用「登山」復健：堅持做自己喜歡的事",
+          "曾瀕死26小時、征服聖母峰　她堅持做喜歡的事",
           contents: [
             "外號「三條魚」的詹喬愉，高中初接觸登山，大學加入登山社，發覺登山有許多技能要學，為何自己都不會，很想學好，不知不覺就會陷下去，開始真正對登山產生興趣。",
             "2015年，詹喬愉在一次海外登山意外中摔落冰河，獨自等候救援26小時，「那段時間一直在想下一步該怎麼辦，怎麼樣能撐越久、怎麼自救…。」",
@@ -130,7 +119,7 @@ const topicsData = [
         image: "https://doqvf81n9htmm.cloudfront.net/data/crop_article/110587/102.jpg_1140x855.jpg",
         link:
           "https://www.businesstoday.com.tw/article/category/183034/post/202102080011/%E9%9F%93%E5%9C%8B%E5%88%B0%E8%99%95%E9%83%BD%E6%98%AF%E7%82%B8%E9%9B%9E%E5%BA%97%EF%BC%8C%E7%AB%9F%E5%92%8C1997%E5%B9%B4%E9%87%91%E8%9E%8D%E9%A2%A8%E6%9A%B4%E6%9C%89%E9%97%9C%E2%80%A617%E5%B9%B4%E6%8E%A1%E8%A8%AA%E7%B6%93%E9%A9%97%E5%A5%B3%E4%B8%BB%E6%92%AD%E8%AE%8A%E6%92%AD%E5%AE%A2%EF%BC%8C%E8%AE%93%E5%93%88%E9%9F%93%E6%97%8F%E6%9B%B4%E6%87%82%E9%9F%93",
-        title: "「個人風格很重要」 資深女主播變火紅播客",
+        title: "「個人風格很重要」　資深女主播變火紅播客",
         contents: [
           "人稱「水晶主播」的王宜安是立蕓集團副總經理兼銘傳新媒體暨傳播管理系講師，過去擁有前中天財經生活中心主任、主播、主持人等17年新聞人經歷，近期《從主播到直播：水晶主播王宜安獨家分享直播祕訣》新書剛上市，她工作之餘應前長官之邀當起播客，沒想到以韓國文化為主內容的節目竟創下收聽紀錄。",
           "問她有何收聽次數衝高的祕訣，她透露，呼應當前熱門話題以及標題取得好都很重要。",
@@ -141,7 +130,7 @@ const topicsData = [
         image: "https://doqvf81n9htmm.cloudfront.net/data/TommyHuang_147/all/2f19e52c18ccd461f8ebc7b67b2a1b4f.png",
         link:
           "https://www.businesstoday.com.tw/article/category/183036/post/201911280019/%E3%80%8C%E5%9C%A8%E7%88%B6%E8%A6%AA%E8%B5%B0%E4%BA%86%E4%B9%8B%E5%BE%8C%EF%BC%8C%E6%88%91%E6%89%8D%E6%87%82%E5%BE%97%E5%8F%8A%E6%99%82%E8%AA%AA%E6%84%9B%E3%80%8D%E3%80%80%E8%A2%AB%E9%9C%B8%E5%87%8C%E3%80%81%E5%B0%8D%E5%B7%B2%E9%80%9D%E7%88%B6%E8%A6%AA%E7%9A%84%E9%81%BA%E6%86%BE...%E9%96%8B%E6%9C%97%E7%9A%84Youtuber%E5%8D%83%E5%8D%83%E8%A8%B4%E8%AA%AA%E5%85%A7%E5%BF%83%E6%B7%B1%E8%99%95%E7%9A%84%E7%97%9B%EF%BC%81",
-        title: "網紅成名之路艱辛  千千：讓自己變得更強大",
+        title: "網紅成名之路艱辛　千千：讓自己變得更強大",
         contents: [
           "千千開朗、樂觀的形象深植人心，但是，私底下她卻認為自己是個悲觀的人，只是不喜歡將內心的悲傷展現給外界。選擇不打安全牌的她，努力用影像搏網友眼球背後，其實包藏著強烈的自尊心，一直以來，她想要擁有自己的事業，而她對事業的渴求，與童年家境有關。千千坦言，小時候家中並不寬裕，因此造就在事業上的高自我要求。",
           "成為網紅路上，千千也曾遭遇網路霸凌，現在的她反而能正面思考：「在留言裡，有沒有能讓我改進的建議。」",
@@ -156,7 +145,7 @@ const topicsData = [
       {
         image: topicCheng,
         link:
-          "https://www.businesstoday.com.tw/article/category/183027/post/202009100038/",
+          "https://www.businesstoday.com.tw/article/category/80407/post/202102260017/%E5%BE%9E%E8%AA%B2%E6%9C%AC%E3%80%81%E5%88%B6%E6%9C%8D%E9%83%BD%E4%BB%B0%E8%B3%B4%E8%80%81%E5%B8%AB%E8%B3%87%E5%8A%A9%E7%9A%84%E5%81%8F%E9%84%89%E5%B0%8F%E5%AD%A9%EF%BC%8C%E5%88%B0%E5%8F%B0%E7%81%A3%E6%9C%80%E5%A4%A7%E9%87%91%E6%8E%A7%E6%8A%95%E8%B3%87%E9%95%B7%E3%80%80%E7%A8%8B%E6%B7%91%E8%8A%AC%EF%BC%9A%E3%80%8C%E6%88%91%E7%9A%84%E8%B2%B4%E4%BA%BA%E5%8C%85%E6%8B%AC%E6%AC%BA%E8%B2%A0%E6%88%91%E7%9A%84%E4%BA%BA%EF%BC%81%E3%80%8D",
         title: "從偏鄉小孩到台灣最大金控投資長 程淑芬：「我的貴人包括欺負我的人」",
         contents: [
           "「我小時家裡太窮，但因為成績好，老師有多幫一點忙，從課本、制服、鬧鐘、書桌到補習費…等，都是老師幫忙付的。」來自雲林虎尾偏僻小村落的國泰金控投資長程淑芬坦言，小時候因為跟別人家太不一樣，有點自卑。",
@@ -165,9 +154,9 @@ const topicsData = [
         ],
       },
       {
-        image: topicTrust,
+        image: "https://doqvf81n9htmm.cloudfront.net/data/linhsinnan1_196/PKH_9368_.jpg",
         link:
-          "https://www.businesstoday.com.tw/article/category/183027/post/202009100038/",
+          "https://www.businesstoday.com.tw/article/category/183034/post/202103020032/%E5%BE%9E%E4%B8%80%E9%96%93%E5%B0%8F%E6%B2%99%E9%BE%8D%E5%88%B0%E5%85%A8%E5%8F%B027%E5%AE%B6%E6%9C%83%E9%A4%A8%E7%9A%84%E5%81%A5%E5%BA%B7%E7%AE%A1%E7%90%86%E7%8E%8B%E5%9C%8B%E3%80%80%E5%AA%9A%E7%99%BB%E5%B3%AF%E8%91%A3%E5%BA%A7%E8%8E%8A%E9%9B%85%E6%B8%85%EF%BC%9A%E7%95%B6%E5%B9%B4%E6%88%91%E4%BB%80%E9%BA%BC%E9%83%BD%E6%B2%92%E6%9C%89%EF%BC%8C%E5%8F%AA%E6%9C%89%E4%B8%80%E9%A1%86%E8%86%BD%EF%BC%81",
         title:
           "從小沙龍到媚登峰　莊雅清：當年我什麼都沒有，只有一顆膽！",
           contents: [
@@ -177,15 +166,16 @@ const topicsData = [
           ],
       },
       {
-        image: picture,
+        image: "https://doqvf81n9htmm.cloudfront.net/data/andreahsiao_234/2020.11.27-2020.12.30/2021.3/3_5-1.jpg",
         link:
-          "https://www.businesstoday.com.tw/article/category/183027/post/202009100038/",
+          "https://www.businesstoday.com.tw/article/category/183035/post/202103050012/%E6%8F%AA%E5%A4%A7%E5%AE%B6%E5%B9%AB%E5%81%8F%E9%84%89%E6%95%99%E8%82%B2%E6%83%B3%E8%A7%A3%E6%96%B9%EF%BC%81%20TFT%E5%89%B5%E8%BE%A6%E4%BA%BA%E5%8A%89%E5%AE%89%E5%A9%B7%EF%BC%9A%E3%80%8C%E8%AE%93%E4%B8%8D%E6%BB%BF%E7%8F%BE%E7%8B%80%E7%9A%84%E6%89%80%E6%9C%89%E4%BA%BA%EF%BC%8C%E9%83%BD%E6%9C%89%E6%94%B9%E8%AE%8A%E7%9A%84%E5%8B%95%E6%A9%9F%E3%80%8D",
         title:
-          "3從台灣到矽谷、中東她們推動全球女性職涯發展全球女性職涯發展全球女性職涯發展",
+          "揪大家幫偏鄉教育想解方！ 劉安婷：「讓不滿現狀的人  都有改變的動機」",
           contents: [
-            "有著財經專業背景，卻還是在股海裡大賠五百萬！財經主播王志郁自嘲，「所有散戶會犯的錯，像是聽信明牌、追高殺低等，她全都犯過一輪了」。",
-            "但是，在經過這堂「五百萬的投資理財課」之後，王志郁痛定思痛，找出開始重新審視、建立一套新的投資理財邏輯。她說，現在的資產配置非常簡單，分別是房子、股市及基金，各佔三分之一。",
-            "經過幾年努力之後，不僅坐擁千萬身價，還因為痛過、賠過的經驗，決定以教導小資族投資理財為己任，讓所有曾跟她一樣在理財路上迷惘的年輕人，能找出屬於自己的理財方式。",
+            "為解決台灣偏鄉教育師資缺乏的問題，2013年甫從美國普林斯頓校園的劉安婷揮別高薪工作與舒適圈，毅然回台成立非營利組織Teach For Taiwan（TFT/為台灣而教），現為TFT董事長。",
+            "許多人對劉安婷的印象，是在TED演講上，自信談論教育資源不均的正妹高材生，以及曾獲《Forbes》亞洲版百大有影響力的年輕人之一。",
+            "如今，7年過去，劉安婷身上的標籤顯已轉淡；TFT也從「偏鄉教師荒」解決者的角色，增加公私部門與各式人才串接橋樑的角色。",
+            "今年3月初，總統蔡英文也參訪TFT與均一平台教育基金會、誠致教育基金會共同成立的「教育創新合作社 Education CoLab」。並肯定合作社補足了社會和教育中最艱困的「城鄉差距」。",
           ],
       },
     ],

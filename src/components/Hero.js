@@ -11,9 +11,9 @@ const Hero = () => (
       <div className="relative w-full h-full max-w-screen-2xl mx-auto px-3 lg:px-6 flex flex-col justify-center items-center">
         <HeroAnimation />
 
-        <div className="btn mb-14">
+        <div className="btn mb-14 animate-bounceBtn">
           <a href="#打造財務自由"
-            className="animate-bounce scroll_btn relative group text-brown-dark inline-flex items-center hover:text-primary-dark focus:outline-none"
+            className="scroll_btn relative group text-brown-dark inline-flex items-center hover:text-primary-dark focus:outline-none"
           >
             <span className="font-semibold italic mr-4 transform translate-y-0 transition-all duration-500 group-hover:translate-y-2">
               SCROLL DOWN

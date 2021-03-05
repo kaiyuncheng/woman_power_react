@@ -19,7 +19,7 @@ const Corporation = () => {
           <div className="direction absolute left-0 w-1/4 h-1 -mt-6 bg-gradient-to-l from-primary-medium to-secondary-dark"></div>
           <Fade bottom>
           <div className="logo_group flex justify-center flex-wrap mx-3 my-20 sm:my-32 lg:mx-20 lg:my-28">
-            <a href="https://dreamsbrows.com/" className="co_logo w-full sm:w-2/3 md:w-1/3 px-6 pb-10 pt-8 sm:px-8 sm:pb-8 sm:pt-6 rounded-xl transition-all duration-300  hover:shadow-inner hover:bg-primary-light">
+            <a href="https://dreamsbrows.com/" className="co_logo w-full sm:w-2/3 md:w-1/3 px-6 pb-10 pt-8 sm:px-8 sm:pb-8 sm:pt-6 rounded-xl transition-all duration-500 transform hover:scale-110">
               <img className="w-full" src={logo} alt="DREAM’S BROWS logo" />
             </a>
              </div>

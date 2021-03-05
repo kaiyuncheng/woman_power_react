@@ -26,8 +26,9 @@ const SliderFirst = ({ title, titleID, topTopics, bottomTopics }) => {
             </div>
           </div>
           
-          <Fade bottom>   
+          
           <div className="sliders">
+          <Fade bottom>   
             <div
               className="slider_top relative py-16 px-0 mx-auto bg-contain bg-center-right bg-no-repeat"
               style={{ backgroundImage: `url(${shapeTop})` }}
@@ -37,7 +38,9 @@ const SliderFirst = ({ title, titleID, topTopics, bottomTopics }) => {
               </div>
               <SliderTop topics={topTopics} />
             </div>
+            </Fade>
 
+        <Fade bottom>   
             <div
               className="slider_bottom relative py-16 px-0 mx-auto"
               style={{
@@ -46,9 +49,10 @@ const SliderFirst = ({ title, titleID, topTopics, bottomTopics }) => {
             >
               <SliderBottom topics={bottomTopics} />
             </div>
+            </Fade>
             
           </div>
-          </Fade>
+          
         </div>
       </div>
     </>

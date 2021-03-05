@@ -4,6 +4,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
 
+html{
+  scroll-behavior: smooth;
+}
+
 body{
   font-family: 'Noto Sans TC', sans-serif;
   background-size: 40px 40px;
@@ -11,8 +15,7 @@ body{
   linear-gradient(to right,#25526e1a 1px,transparent 1px),
   linear-gradient(to bottom,#25526e1a 1px,transparent 1px),
   linear-gradient(to bottom,#FBF8F8 ,#FBF8F8);
-  scroll-behavior: smooth;
-
+  
 }
 
 .hero{
@@ -21,18 +24,10 @@ body{
   min-height: 680px;
 }
 
-.video_image{
-  height: 250px;
-}
-
 @media (min-width: 568px){
   .hero {
     min-height: 800px;
     max-height: 850px;
-  }
-
-  .video_image{
-    height: 300px;
   }
 }
 
@@ -41,9 +36,6 @@ body{
     min-height: 950px;
     max-height: 1080px;
   }
-  .video_image{
-    height: 400px;
-  }
 }
 
 @media (min-width: 992px){
@@ -51,18 +43,11 @@ body{
     min-height: 700px;
     max-height: 800px;
   }
-  .video_image{
-    height: 600px;
-  }
 }
 
 @media (min-width: 1280px){
   .hero{
     max-height: 1080px;
-  }
-
-  .video_image{
-    height: 600px;
   }
 }
 
@@ -166,7 +151,6 @@ body{
 .scroll_btn{
   animation: fade 1s linear both 5s;
 }
-
 
 
 @media (min-width: 568px){
@@ -287,7 +271,6 @@ body{
     transform: scale(1) translate(0px, 0px)  rotate(0deg);
   } 
 }
-
 
 /* video section animation */
 

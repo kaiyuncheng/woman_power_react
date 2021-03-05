@@ -52,7 +52,7 @@ const VideoSection = () => {
     <>
       <div
         id="靚麗人生提案"
-        className="relative section w-full pt-28 pb-20 md:pt-40 md:pb-40 mb-18 bg-small lg:bg-full bg-center-bottom bg-no-repeat overflow-hidden"
+        className="relative section w-full pt-32 pb-20 md:pt-40 md:pb-40 mb-18 bg-small lg:bg-full bg-center-bottom bg-no-repeat overflow-hidden"
         style={{ backgroundImage: `url(${bgVideo})` }}
       > 
       <div className="video_leaves_left hidden sm:block absolute -top-64 -left-16 transform origin-bottom-left rotate-90">
@@ -161,7 +161,7 @@ const VideoSection = () => {
         <Fade bottom>
           <div className="max-w-screen-2xl mx-auto px-3 lg:px-6">
             <div className="sliders flex flex-col items-center">
-              <div className="title_buttons flex flex-col space-y-5 lg:flex-row lg:space-x-5 lg:space-y-0">
+              <div className="title_buttons flex flex-row space-y-0 space-x-4 lg:space-x-5 lg:space-y-0">
                 <button
                   onClick={handleData(0)}
                   type="button"
@@ -171,9 +171,9 @@ const VideoSection = () => {
                   } ${
                     isActive &&
                     "bg-primary-dark text-white border-secondary-light shadow-lg"
-                  } py-2 px-12 rounded-full hover:text-white hover:bg-primary-dark hover:border-secondary-light focus:outline-none transition-colors duration-500`}
+                  } py-2 px-8 sm:px-12 rounded-full hover:text-white hover:bg-primary-dark hover:border-secondary-light focus:outline-none transition-colors duration-500`}
                 >
-                  <span className="font-medium text-lg">靚麗人生提案</span>
+                  <span className="font-medium text-lg">靚麗人生</span>
                 </button>
                 <button
                   onClick={handleData(1)}
@@ -184,16 +184,16 @@ const VideoSection = () => {
                   } ${
                     !isActive &&
                     "bg-primary-dark text-white border-secondary-light shadow-lg"
-                  } py-2 px-12 rounded-full hover:text-white hover:bg-primary-dark hover:border-secondary-light focus:outline-none transition-colors duration-500`}
+                  } py-2 px-8 sm:px-12 rounded-full hover:text-white hover:bg-primary-dark hover:border-secondary-light focus:outline-none transition-colors duration-500`}
                 >
-                  <span className="font-medium text-lg">城市女力柔光</span>
+                  <span className="font-medium text-lg">城市女力</span>
                 </button>
               </div>
 
               <div className="relative py-16 lg:px-20 md:px-16 sm:px-14 px-2 mx-auto">
                 <div className="slider_text w-full flex flex-col justify-between mb-20">
                   <div className="text_group">
-                    <h3 className="relative flex items-center text-lg font-bold text-secondary-dark mb-3 leading-relaxed">
+                    <h3 className="relative flex items-center text-1xl font-bold text-secondary-dark mb-3 leading-relaxed">
                       <span className="inline-block decoration w-1 h-8 mr-3 bg-white"></span>
                       {data.title}
                     </h3>
@@ -209,7 +209,7 @@ const VideoSection = () => {
                       })}
                   </div>
                   <a
-                    href={data.link}
+                    href={data.link} target="_blank" rel="noreferrer"
                     className="self-end cursor-pointer group border border-white text-white inline-flex items-center py-1 px-10 rounded-full hover:text-primary-dark hover:bg-white hover:border-primary-dark focus:outline-none transition-colors duration-500"
                   >
                     <span className="font-medium mr-2">{data.button}</span>
@@ -231,7 +231,7 @@ const VideoSection = () => {
                   </a>
                 </div>
 
-                <div className="video_image w-full rounded-2xl overflow-hidden shadow-md">
+                <div className="aspect-w-16 aspect-h-9 rounded-2xl overflow-hidden shadow-md">
                   {data.image && (
                     <img
                       src={data.image}

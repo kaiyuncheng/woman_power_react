@@ -143,13 +143,13 @@ const SliderTop = ({ topics, isReverse }) => {
                       }`}
                     >
                       <div className="text-group">
-                        <h3 className="relative flex text-lg md:text-lg font-bold text-brown-dark mb-3 lg:mb-4 leading-relaxed">
+                        <h3 className="relative flex text-xl md:text-1xl font-bold text-brown-dark mb-3 lg:mb-4 leading-relaxed">
                           <span className="inline-block decoration w-1 h-8 mr-3 bg-secondary-dark"></span>
                           {item.title}
                         </h3>
 
                         {item.contents && item.contents.map((content, i) => {
-                          return(<p key={`content${i}`} className="flex md:text-md text-base font-normal text-brown-dark mb-4 ">
+                          return(<p key={`content${i}`} className="flex text-md font-normal text-brown-dark mb-4 ">
                           <span className="mr-4"></span>
                           {content}
                         </p>);
@@ -157,7 +157,7 @@ const SliderTop = ({ topics, isReverse }) => {
                       </div>
 
                       <a
-                        href={item.link}
+                        href={item.link} target="_blank" rel="noreferrer"
                         className="self-end group border border-primary-dark text-primary-dark inline-flex items-center bg-white py-1 px-10 rounded-full hover:text-white hover:bg-primary-dark focus:outline-none transition-colors duration-500"
                       >
                         <span className="font-medium mr-2">閱讀更多</span>
