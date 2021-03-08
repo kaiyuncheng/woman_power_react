@@ -6,7 +6,7 @@ function SamplePrevArrow({ onClick }) {
     <button
       type="button"
       onClick={onClick}
-      className="prev block absolute left-0 top-32 z-30 sm:-left-16 sm:top-1/2 transform sm:-translate-y-1/2 group lg:p-4 p-3 rounded-full bg-secondary-bg hover:bg-secondary-dark focus:outline-none transition-colors duration-500"
+      className="prev block absolute left-0 top-28 z-30 sm:-left-16 sm:top-1/2 transform sm:-translate-y-1/2 group lg:p-4 p-3 rounded-full bg-secondary-bg hover:bg-secondary-dark focus:outline-none transition-colors duration-500"
     >
       <span className="animate-ping absolute left-0 top-0 inline-flex h-full w-full rounded-full border border-secondary-dark opacity-100"></span>
       <svg
@@ -47,7 +47,7 @@ function SampleNextArrow({ onClick }) {
     <button
       type="button"
       onClick={onClick}
-      className="next block absolute right-0 top-32 z-30 sm:-right-16 sm:top-1/2 transform sm:-translate-y-1/2 group lg:p-4 p-3 rounded-full bg-secondary-bg hover:bg-secondary-dark focus:outline-none transition-colors duration-500"
+      className="next block absolute right-0 top-28 z-30 sm:-right-16 sm:top-1/2 transform sm:-translate-y-1/2 group lg:p-4 p-3 rounded-full bg-secondary-bg hover:bg-secondary-dark focus:outline-none transition-colors duration-500"
     >
       <span className="animate-ping absolute left-0 top-0 inline-flex h-full w-full rounded-full border border-secondary-dark opacity-100"></span>
       <svg
@@ -124,8 +124,8 @@ const SliderBottom = ({ topics, isReverse }) => {
                   key={`id_${i}`}
                   className="slider_item focus:outline-none px-1"
                 >
-                  <div className={`flex flex-col space-y-4 lg:space-y-0 lg:flex-row ${!isReverse && 'lg:space-x-5'} ${isReverse && 'lg:space-x-0'}`}>
-                    <div className={`slider_text w-full lg:w-2/3 flex flex-col justify-between ${isReverse && 'lg:pl-5'}`}>
+                  <div className={`flex flex-col space-y-4 items-center lg:items-stretch lg:space-y-0 lg:flex-row  ${!isReverse && 'lg:space-x-5'} ${isReverse && 'lg:space-x-0'}`}>
+                    <div className={`slider_text w-full sm:w-11/12 lg:w-2/3 flex flex-col justify-between ${isReverse && 'lg:pl-5'}`}>
                       <div className="text_group mt-5">
                         <h3 className="relative flex items-center text-xl md:text-1xl font-bold text-brown-dark mb-3 lg:mb-4 leading-relaxed">
                           <span className="inline-block decoration w-1 h-8 mr-3 bg-secondary-dark"></span>
@@ -137,8 +137,6 @@ const SliderBottom = ({ topics, isReverse }) => {
                           {content}
                         </p>);
                         })}
-
-                        
                       </div>
 
                       <a
@@ -163,12 +161,14 @@ const SliderBottom = ({ topics, isReverse }) => {
                         </svg>
                       </a>
                     </div>
-                    <div className={`slider_image w-full h-72 md:h-96 lg:w-1/3 lg:h-auto order-first ${!isReverse && 'lg:order-last'}`}>
+                    <div className={`slider_image relative w-2/3 h-52 sm:h-72 sm:w-11/12 md:h-80 lg:w-1/3 lg:h-auto order-first ${!isReverse && 'lg:order-last'}`}>
+                    <span className={`${item.isPR && 'block'} ${!item.isPR && 'hidden'} absolute top-3 left-3 text-md text-gray-200 bg-red-900 w-8 h-6 text-center rounded-md`}>PR</span>
                       <img
                         className="block rounded-2xl shadow-md w-full h-full object-cover"
                         src={item.image}
                         alt="section"
                       />
+                      
                     </div>
                   </div>
                 </div>

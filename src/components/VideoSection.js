@@ -51,7 +51,7 @@ const VideoSection = () => {
   return (
     <>
       <div
-        id="靚麗人生提案"
+        id="@靚麗人生提案"
         className="relative section w-full pt-32 pb-20 md:pt-40 md:pb-40 mb-18 bg-small lg:bg-full bg-center-bottom bg-no-repeat overflow-hidden"
         style={{ backgroundImage: `url(${bgVideo})` }}
       > 

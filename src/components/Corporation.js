@@ -4,7 +4,7 @@ import title from '../assets/images/title_04.png'
 const Corporation = () => {
   return (
     <>
-      <div id="合作夥伴" className="relative section w-full pt-40 mb-10">
+      <div id="@合作夥伴" className="relative section w-full pt-40 mb-10">
         <div className="max-w-screen-2xl mx-auto px-3 lg:px-6 flex flex-col">
           <div className="title_image -mt-9 mr-4 h-8 absolute left-1/4 ml-4">
             <Fade bottom>

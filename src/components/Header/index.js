@@ -135,6 +135,14 @@ const Header = () => {
                 </button>
               </div>
               <nav className="hidden text-base text-brown-dark md:flex space-x-10">
+
+              <a
+                        href="http://www.businesstoday.com.tw/topic/2021/powerofwomen/"
+                        className="group py-1 text-center border-white inline-flex font-medium transition-colors focus:outline-none hover:text-primary-dark"
+                      >
+                        首頁
+                        <span className="absolute left-0 bottom-0 w-full border-b-2 border-white transform scale-x-0 origin-left transition-all duration-500 group-hover:scale-x-100"></span>
+                      </a>
                 {menuTitles.map((title, i) => {
                   return (
                     <div className="relative" key={`menu_item${i}`}>
@@ -240,6 +248,10 @@ const Header = () => {
                 </div>
                 <div className="mt-6">
                   <nav className="flex flex-col justify-center items-center text-lg">
+                    <a href="http://www.businesstoday.com.tw/topic/2021/powerofwomen/" onClick={toggleMenu} className="relative mb-10 group font-medium transition-colors focus:outline-none hover:text-primary-dark">
+                      首頁
+                      <span className="absolute left-0 -bottom-2 w-full border-b-2 border-primary-dark transform scale-x-0 origin-left transition-all duration-500 group-hover:scale-x-100"></span>
+                    </a>
                     {menuTitles.map((title, i) => {
                       return (
                         <a
