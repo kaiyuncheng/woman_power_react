@@ -1,11 +1,10 @@
+import SliderTop from "../../Sliders/SliderTop";
+import SliderBottom from "../../Sliders/SliderBottom";
+
 import Fade from "react-reveal/Fade";
-import shapeTop from "../assets/images/shape_top.svg";
-import shapeBottom from "../assets/images/shape_bottom.svg";
-import divide from "../assets/images/divide.png";
-import SliderTop from "./SliderTop";
-import SliderBottom from "./SliderBottom";
-
-
+import shapeTop from "../../../assets/images/shape_top.svg";
+import shapeBottom from "../../../assets/images/shape_bottom.svg";
+import divide from "../../../assets/images/divide.png";
 
 const SliderFirst = ({ title, titleID, topTopics, bottomTopics }) => {
   return (

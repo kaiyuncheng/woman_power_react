@@ -1,12 +1,12 @@
 import Fade from "react-reveal/Fade";
 
-import SliderTop from "./SliderTop";
-import bgSlider from "../assets/images/bg_orange_02.png";
-import shapeTop from "../assets/images/shape_top_pink.png";
+import SliderTop from "../../Sliders/SliderTop";
+import SliderBottom from "../../Sliders/SliderBottom";
 
-import SliderBottom from "./SliderBottom";
-import shapeBottom from "../assets/images/shape_bottom.svg";
-import divide from "../assets/images/divide_2.png";
+import bgSlider from "../../../assets/images/bg_orange_02.png";
+import shapeTop from "../../../assets/images/shape_top_pink.png";
+import shapeBottom from "../../../assets/images/shape_bottom.svg";
+import divide from "../../../assets/images/divide_2.png";
 
 const SliderSecond = ({ title, titleID, topTopics, bottomTopics }) => {
   const isReverse = true;

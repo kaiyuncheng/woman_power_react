@@ -6,12 +6,15 @@ import 'slick-carousel/slick/slick-theme.css';
 import './App.css';
 
 import Header from './components/Header';
-import Hero from './components/Hero';
-import SlidersSection from './components/SlidersSection';
-import VideoSection from './components/VideoSection';
-import Corporation from './components/Corporation';
+import Hero from './components/Main/Hero';
+import SlidersSection from './components/Main/SlidersSection';
+import VideoSection from './components/Main/VideoSection';
+import Corporation from './components/Main/Corporation';
 import Footer from './components/Footer';
 import GoTop from './components/GoTop';
+
+import data from './components/data/data.json'
+
 function App() {
   return (
     <div className="App">
@@ -24,10 +27,10 @@ function App() {
         width={100}
         timeout={500} 
       />
-      <Header />
+      <Header menuTitles={data.menuTitles} />
       <Hero />
-      <SlidersSection />
-      <VideoSection />
+      <SlidersSection topicsData={data.topicsData} />
+      <VideoSection topicsVideo={data.topicsVideo} />
       <Corporation />
       <Footer />
     </div>

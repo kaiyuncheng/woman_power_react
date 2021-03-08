@@ -1,5 +1,5 @@
 import Fade from "react-reveal/Fade";
-import banner from "../assets/images/banner_970x250.jpg";
+import banner from "../../../assets/images/banner_970x250.jpg";
 const Banner = () => {
   return (
     <>

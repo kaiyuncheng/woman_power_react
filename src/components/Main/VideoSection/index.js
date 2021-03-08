@@ -1,44 +1,8 @@
 import React, { useState } from "react";
 import Fade from "react-reveal/Fade";
-import bgVideo from "../assets/images/bg_orange_03.png";
-import videoImage from "../assets/images/video_dreamsbrows.jpg";
-const topicsVideo = [
-  {
-    name: "靚麗人生",
-    topics: [
-      {
-        title: "抗癌路上勇敢追夢　PHI ACADEMY台灣首位紋繡Master",
-        contents: [
-          "DREAM’S BROWS負責人朱毓媵，兩年多前被醫生確診罹患乳癌，因為許多人的幫助，讓她非但沒有失去勇氣，還想到做化療後，頭髮和眉毛都會脫落，希望透過自己的紋繡技藝幫助到癌友們。經醫師評估確認可行後，便開始免費替癌友紋繡，讓她們重拾自信。",
-          "她回想服務100多位癌友們的收穫，就是累積笑容以及實務經驗，「如果沒有病痛，我今天就無法獲得歐洲頂尖紋繡學院PHI ACADEMY所頒發的「MASTER」殊榮，成為該學院在台灣的第一位紋繡大師。」 ",
-        ],
-        image: "https://doqvf81n9htmm.cloudfront.net/data/crop_article/110493/0204-1.jpg_1140x855.jpg",
-        link:
-          "https://www.businesstoday.com.tw/article/category/183034/post/202102040013/%E8%8B%A6%E9%9B%A3%E8%83%8C%E5%BE%8C%E9%83%BD%E6%9C%89%E7%A5%9D%E7%A6%8F%E3%80%80%E6%8A%97%E7%99%8C%E8%B7%AF%E4%B8%8A%E5%8B%87%E6%95%A2%E8%BF%BD%E5%A4%A2%E3%80%80PHI%20ACADEMY%E5%8F%B0%E7%81%A3%E9%A6%96%E4%BD%8D%E7%B4%8B%E7%B9%A1Master",
-        button: "閱讀更多",
-        isPR: true,
-      },
-    ],
-  },
-  {
-    name: "城市女力",
-    topics: [
-      {
-        title: "來自共產國家 金鐘最佳主持人：「我沒身分，台灣卻願聽我的聲音」",
-        contents: [
-          "來自一黨專政共產國家越南，談及台灣社會的民主，陳鳳凰落淚表示珍惜成為台灣人。當年為翻轉外籍新娘刻板印象，投身越南語教學，陳凰鳳還做了廣播、電視節目。2006年獲邀至政大授課，如今陳凰鳳一周有15節課，更是政大創立東南亞語言與文化學士學位學程的幕後推手。",
-          "2015年，陳凰鳳共同主持的教育廣播電台節目《幸福聯合國》獲得第50屆廣播金鐘獎教育文化節目最佳主持人獎，創下台灣第一次新住民敲響金鐘。在陳凰鳳取得國籍之前，就曾獲邀擔任多個政府部門委員，「為什麼我可以做這一點呢？是因為台灣重視的並不是你那一張票，而是你所帶來的影響，我覺得這個民主價值是非常珍貴，我很珍惜」。",
-        ],
-        video: "https://www.youtube.com/embed/i9vuRWa59XI",
-        link:
-          "https://www.businesstoday.com.tw/article/category/183034/post/202101200027/%E5%BE%9E%E5%B0%8F%E5%9C%A8%E5%85%B1%E7%94%A2%E5%9C%8B%E5%AE%B6%E9%95%B7%E5%A4%A7%20%E9%87%91%E9%90%98%E6%9C%80%E4%BD%B3%E4%B8%BB%E6%8C%81%E4%BA%BA%E9%99%B3%E5%87%B0%E9%B3%B3%EF%BC%9A%E3%80%8C%E6%88%91%E6%B2%92%E8%BA%AB%E5%88%86%EF%BC%8C%E5%8F%B0%E7%81%A3%E5%8D%BB%E9%A1%98%E6%84%8F%E8%81%BD%E6%88%91%E7%9A%84%E8%81%B2%E9%9F%B3%E3%80%8D",
-        button: "閱讀更多",
-      },
-    ],
-  },
-];
+import bgVideo from "../../../assets/images/bg_orange_03.png";
 
-const VideoSection = () => {
+const VideoSection = ({topicsVideo}) => {
   const [data, setData] = useState(topicsVideo[0].topics[0]);
   const [isActive, setIsActive] = useState(true);
 

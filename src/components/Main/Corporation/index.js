@@ -1,6 +1,6 @@
 import Fade from "react-reveal/Fade";
-import logo from '../assets/images/dreamsbrows_logo.png';
-import title from '../assets/images/title_04.png'
+import logo from '../../../assets/images/dreamsbrows_logo.png';
+import title from '../../../assets/images/title_04.png'
 const Corporation = () => {
   return (
     <>

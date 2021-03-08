@@ -1,4 +1,4 @@
-import bgHero from '../assets/images/bg_orange_01.png';
+import bgHero from '../../../assets/images/bg_orange_01.png';
 import HeroAnimation from './HeroAnimation';
 
 

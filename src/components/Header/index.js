@@ -1,12 +1,9 @@
 import React, { useState, useEffect } from "react";
 import Fade from "react-reveal/Fade";
-import data from "../data/data.json";
 
-const Header = () => {
+const Header = ({menuTitles}) => {
   const [menuState, setMenuState] = useState("scale-0");
   const [top, setTop] = useState(true);
-
-  const menuTitles = data.menuTitle;
 
   useEffect(() => {
     const scrollHandler = () => {
