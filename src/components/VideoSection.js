@@ -4,21 +4,24 @@ import bgVideo from "../assets/images/bg_orange_03.png";
 import videoImage from "../assets/images/video_dreamsbrows.jpg";
 const topicsVideo = [
   {
-    name: "靚麗人生提案",
+    name: "靚麗人生",
     topics: [
       {
-        title: "以「DREAM’S BROWS」為名，美麗要從「頭」開始",
+        title: "抗癌路上勇敢追夢　PHI ACADEMY台灣首位紋繡Master",
         contents: [
-          "Cherry老師專精紋繡多年，技藝精湛，並專精皮膚管理，頭皮點藝等等多項技術！讓你享受蛻變後的美麗！想紋繡的你，擔心找不到好的老師嗎？來到Dream’s Brows你會發現原來夢想距離你這麼近！",
+          "DREAM’S BROWS負責人朱毓媵，兩年多前被醫生確診罹患乳癌，因為許多人的幫助，讓她非但沒有失去勇氣，還想到做化療後，頭髮和眉毛都會脫落，希望透過自己的紋繡技藝幫助到癌友們。經醫師評估確認可行後，便開始免費替癌友紋繡，讓她們重拾自信。",
+          "她回想服務100多位癌友們的收穫，就是累積笑容以及實務經驗，「如果沒有病痛，我今天就無法獲得歐洲頂尖紋繡學院PHI ACADEMY所頒發的「MASTER」殊榮，成為該學院在台灣的第一位紋繡大師。」 ",
         ],
-        image: videoImage,
-        link: "http://dreamsbrows.com/",
-        button: "前往了解",
+        image: "https://doqvf81n9htmm.cloudfront.net/data/crop_article/110493/0204-1.jpg_1140x855.jpg",
+        link:
+          "https://www.businesstoday.com.tw/article/category/183034/post/202102040013/%E8%8B%A6%E9%9B%A3%E8%83%8C%E5%BE%8C%E9%83%BD%E6%9C%89%E7%A5%9D%E7%A6%8F%E3%80%80%E6%8A%97%E7%99%8C%E8%B7%AF%E4%B8%8A%E5%8B%87%E6%95%A2%E8%BF%BD%E5%A4%A2%E3%80%80PHI%20ACADEMY%E5%8F%B0%E7%81%A3%E9%A6%96%E4%BD%8D%E7%B4%8B%E7%B9%A1Master",
+        button: "閱讀更多",
+        isPR: true,
       },
     ],
   },
   {
-    name: "城市女力柔光",
+    name: "城市女力",
     topics: [
       {
         title: "來自共產國家 金鐘最佳主持人：「我沒身分，台灣卻願聽我的聲音」",
@@ -231,7 +234,8 @@ const VideoSection = () => {
                   </a>
                 </div>
 
-                <div className="aspect-w-16 aspect-h-9 rounded-2xl overflow-hidden shadow-md">
+                <div className="relative aspect-w-16 aspect-h-9 rounded-2xl overflow-hidden shadow-md">
+                  <span className={`${data.isPR && 'block'} ${!data.isPR && 'hidden'} z-30 absolute top-3 left-3 text-md text-gray-200 bg-red-900 w-8 h-6 text-center rounded-md`}>PR</span>
                   {data.image && (
                     <img
                       src={data.image}

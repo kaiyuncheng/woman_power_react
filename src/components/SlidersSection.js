@@ -5,9 +5,7 @@ import titleFirst from "../assets/images/title_01.png";
 import titleSecond from "../assets/images/title_02.png";
 import titleThird from "../assets/images/title_03.png";
 
-import topicMissq from "../assets/images/topic_missq.jpg";
 import topicYao from "../assets/images/topic_yao.jpg";
-import topicCheng from "../assets/images/topic_cheng.jpg";
 
 
 const topicsData = [
@@ -188,15 +186,14 @@ const topicsData = [
         ],
       },
       {
-        image: "https://doqvf81n9htmm.cloudfront.net/data/crop_article/110493/0204-1.jpg_1140x855.jpg",
+        image: "https://doqvf81n9htmm.cloudfront.net/data/crop_article/99357/1140_KENS8625aa.jpg_1140x855.jpg",
         link:
-          "https://www.businesstoday.com.tw/article/category/183034/post/202102040013/%E8%8B%A6%E9%9B%A3%E8%83%8C%E5%BE%8C%E9%83%BD%E6%9C%89%E7%A5%9D%E7%A6%8F%E3%80%80%E6%8A%97%E7%99%8C%E8%B7%AF%E4%B8%8A%E5%8B%87%E6%95%A2%E8%BF%BD%E5%A4%A2%E3%80%80PHI%20ACADEMY%E5%8F%B0%E7%81%A3%E9%A6%96%E4%BD%8D%E7%B4%8B%E7%B9%A1Master",
-        title: "抗癌路上勇敢追夢　PHI ACADEMY台灣首位紋繡Master",
+          "https://www.businesstoday.com.tw/article/category/154769/post/202003090020/%E5%81%9A%E5%85%AC%E7%9B%8A%E8%A1%9D%E7%AC%AC%E4%B8%80%E7%B7%9A%20%20%E5%8F%B0%E7%A9%8D%E9%9B%BB%E5%BC%B5%E6%B7%91%E8%8A%AC%EF%BC%9A%E6%84%9F%E6%81%A9%E5%9C%A8%E5%B9%AB%E5%8A%A9%E5%88%A5%E4%BA%BA%E5%90%8C%E6%99%82%EF%BC%8C%E6%9C%89%E6%A9%9F%E6%9C%83%E8%AE%93%E8%87%AA%E5%B7%B1%E6%88%90%E9%95%B7",
+        title: "做公益衝第一線　張淑芬：「幫助別人同時，也能讓自己成長」",
         contents: [
-          "DREAM’S BROWS負責人朱毓媵，兩年多前被醫生確診罹患乳癌，因為許多人的幫助，讓她非但沒有失去勇氣，還想到做化療後，頭髮和眉毛都會脫落，希望透過自己的紋繡技藝幫助到癌友們。經醫師評估確認可行後，便開始免費替癌友紋繡，讓她們重拾自信。",
-          "她回想服務100多位癌友們的收穫，就是累積笑容以及實務經驗，「如果沒有病痛，我今天就無法獲得歐洲頂尖紋繡學院PHI ACADEMY所頒發的「MASTER」殊榮，成為該學院在台灣的第一位紋繡大師。」 ",
+          "率性、即知即行的張淑芬，有時張忠謀在找她時，才發現已在前往公益現場的路上。因為張淑芬做公益的方式，不是捐捐錢、拍拍廣告，而是喜歡衝到第一線、給予需要幫助的人最直接的關心，因為如此，她才能真正知道錢要花在哪、怎麼幫？因此，從2014年高雄氣爆到2018年花蓮震災，每當台灣出現天災人禍時，現場總能看到張淑芬與台積電慈善基金會。",
+          "「我很感恩在幫助別人的同時，有機會讓自己成長，並試著影響更多人，一起讓社會更加溫暖、更有愛。」張淑芬說。",
         ],
-        isPR: true,
       },
     ],
   },

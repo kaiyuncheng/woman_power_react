@@ -162,7 +162,6 @@ const SliderBottom = ({ topics, isReverse }) => {
                       </a>
                     </div>
                     <div className={`slider_image relative w-2/3 h-52 sm:h-72 sm:w-11/12 md:h-80 lg:w-1/3 lg:h-auto order-first ${!isReverse && 'lg:order-last'}`}>
-                    <span className={`${item.isPR && 'block'} ${!item.isPR && 'hidden'} absolute top-3 left-3 text-md text-gray-200 bg-red-900 w-8 h-6 text-center rounded-md`}>PR</span>
                       <img
                         className="block rounded-2xl shadow-md w-full h-full object-cover"
                         src={item.image}

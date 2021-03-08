@@ -26,12 +26,20 @@ const Header = () => {
 
   return (
     <Fade top>
-      <header className={`sticky top-0 left-0 z-40 ${!top && "bg-primary-light bg-opacity-75 blur shadow-md"}`}>
+      <header
+        className={`sticky top-0 left-0 z-40 ${
+          !top && "bg-primary-light bg-opacity-75 blur shadow-md"
+        }`}
+      >
         <div className="relative">
           <div className="max-w-screen-2xl mx-auto px-3 lg:px-6">
             <div className="flex justify-between items-center py-4 md:justify-start md:space-x-10">
               <div className="flex justify-start lg:flex-1">
-                <a href="https://www.businesstoday.com.tw" target="_blank" rel="noreferrer">
+                <a
+                  href="https://www.businesstoday.com.tw"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <span className="sr-only">Logo</span>
                   <svg
                     className="fill-current text-primary-dark hover:text-red-500 transition-colors duration-300"
@@ -135,14 +143,15 @@ const Header = () => {
                 </button>
               </div>
               <nav className="hidden text-base text-brown-dark md:flex space-x-10">
-
-              <a
-                        href="http://www.businesstoday.com.tw/topic/2021/powerofwomen/"
-                        className="group py-1 text-center border-white inline-flex font-medium transition-colors focus:outline-none hover:text-primary-dark"
-                      >
-                        首頁
-                        <span className="absolute left-0 bottom-0 w-full border-b-2 border-white transform scale-x-0 origin-left transition-all duration-500 group-hover:scale-x-100"></span>
-                      </a>
+              <div className="relative">
+                <a
+                  href="http://www.businesstoday.com.tw/topic/2021/powerofwomen/"
+                  className="group py-1 text-center border-white inline-flex font-medium transition-colors focus:outline-none hover:text-primary-dark"
+                >
+                  首頁
+                  <span className="absolute left-0 bottom-0 w-full border-b-2 border-white transform scale-x-0 origin-left transition-all duration-500 group-hover:scale-x-100"></span>
+                </a>
+                </div>
                 {menuTitles.map((title, i) => {
                   return (
                     <div className="relative" key={`menu_item${i}`}>
@@ -159,7 +168,11 @@ const Header = () => {
               </nav>
 
               <div className="hidden md:flex items-center justify-end md:flex-1 ">
-                <a href="https://www.facebook.com/share.php?u=https://www.businesstoday.com.tw/topic/2021/powerofwomen" target="_blank" rel="noreferrer">
+                <a
+                  href="https://www.facebook.com/share.php?u=https://www.businesstoday.com.tw/topic/2021/powerofwomen"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <span className="sr-only">Facebook icon</span>
                   <svg
                     className="fill-current text-primary-dark hover:text-blue-600 transition-colors duration-300"
@@ -186,8 +199,11 @@ const Header = () => {
                   </svg>
                 </a>
                 <a
-                  href="https://social-plugins.line.me/lineit/share?url=https://www.businesstoday.com.tw/topic/2021/powerofwomen" target="_blank" rel="noreferrer"
-                  className="ml-4">
+                  href="https://social-plugins.line.me/lineit/share?url=https://www.businesstoday.com.tw/topic/2021/powerofwomen"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="ml-4"
+                >
                   <span className="sr-only">Line icon</span>
                   <svg
                     className="fill-current text-primary-dark hover:text-green-500 transition-colors duration-300"
@@ -248,7 +264,11 @@ const Header = () => {
                 </div>
                 <div className="mt-6">
                   <nav className="flex flex-col justify-center items-center text-lg">
-                    <a href="http://www.businesstoday.com.tw/topic/2021/powerofwomen/" onClick={toggleMenu} className="relative mb-10 group font-medium transition-colors focus:outline-none hover:text-primary-dark">
+                    <a
+                      href="http://www.businesstoday.com.tw/topic/2021/powerofwomen/"
+                      onClick={toggleMenu}
+                      className="relative mb-10 group font-medium transition-colors focus:outline-none hover:text-primary-dark"
+                    >
                       首頁
                       <span className="absolute left-0 -bottom-2 w-full border-b-2 border-primary-dark transform scale-x-0 origin-left transition-all duration-500 group-hover:scale-x-100"></span>
                     </a>
@@ -270,7 +290,11 @@ const Header = () => {
               </div>
               <div className="py-10 px-5 space-y-6">
                 <div className="flex items-center justify-center">
-                  <a href="https://www.facebook.com/share.php?u=https://www.businesstoday.com.tw/topic/2021/powerofwomen" target="_blank" rel="noreferrer">
+                  <a
+                    href="https://www.facebook.com/share.php?u=https://www.businesstoday.com.tw/topic/2021/powerofwomen"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <span className="sr-only">Facebook icon</span>
                     <svg
                       className="fill-current text-primary-dark hover:text-blue-600"
@@ -297,7 +321,9 @@ const Header = () => {
                     </svg>
                   </a>
                   <a
-                    href="https://social-plugins.line.me/lineit/share?url=https://www.businesstoday.com.tw/topic/2021/powerofwomen" target="_blank" rel="noreferrer"
+                    href="https://social-plugins.line.me/lineit/share?url=https://www.businesstoday.com.tw/topic/2021/powerofwomen"
+                    target="_blank"
+                    rel="noreferrer"
                     className="ml-4"
                   >
                     <span className="sr-only">Line icon</span>
