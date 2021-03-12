@@ -199,7 +199,7 @@ const VideoSection = ({topicsVideo}) => {
                 </div>
 
                 <div className="relative aspect-w-16 aspect-h-9 rounded-2xl overflow-hidden shadow-md">
-                  <span className={`${data.isPR && 'block'} ${!data.isPR && 'hidden'} z-30 absolute top-3 left-3 text-md text-gray-200 bg-red-900 w-8 h-6 text-center rounded-md`}>PR</span>
+                  <span className={`${data.isPR && 'flex'} ${!data.isPR && 'hidden'} z-30 absolute top-3 left-3  text-gray-200 bg-red-900 w-8 h-6 rounded-md justify-center items-center`}>PR</span>
                   {data.image && (
                     <img
                       src={data.image}
